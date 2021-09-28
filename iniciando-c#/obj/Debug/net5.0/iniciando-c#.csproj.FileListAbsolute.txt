@@ -1,0 +1,16 @@
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/bin/Debug/net5.0/iniciando-c#
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/bin/Debug/net5.0/iniciando-c#.deps.json
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/bin/Debug/net5.0/iniciando-c#.runtimeconfig.json
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/bin/Debug/net5.0/iniciando-c#.runtimeconfig.dev.json
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/bin/Debug/net5.0/iniciando-c#.dll
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/bin/Debug/net5.0/ref/iniciando-c#.dll
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/bin/Debug/net5.0/iniciando-c#.pdb
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/obj/Debug/net5.0/iniciando-c#.csproj.AssemblyReference.cache
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/obj/Debug/net5.0/iniciando-c#.GeneratedMSBuildEditorConfig.editorconfig
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/obj/Debug/net5.0/iniciando-c#.AssemblyInfoInputs.cache
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/obj/Debug/net5.0/iniciando-c#.AssemblyInfo.cs
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/obj/Debug/net5.0/iniciando-c#.csproj.CoreCompileInputs.cache
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/obj/Debug/net5.0/iniciando-c#.dll
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/obj/Debug/net5.0/ref/iniciando-c#.dll
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/obj/Debug/net5.0/iniciando-c#.pdb
+/home/h3nrique/Henrique/projetos/C#/iniciando-c#/obj/Debug/net5.0/iniciando-c#.genruntimeconfig.cache
