@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/1u7pvjcOBqQyVdK5fbGc4PhU21gr5p9ioT678bFSVKNQiIWeSnqXgDm7pF2/GqBr/SKju8rUav9lP8VqSi/OA==",
+  "success": true,
+  "projectFilePath": "/home/h3nrique/Henrique/Projetos/c#/C-Sharp/SOLID/ModeloPagamento.csproj",
+  "expectedPackageFiles": [
+    "/home/h3nrique/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/h3nrique/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/h3nrique/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/h3nrique/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.19/microsoft.netcore.app.host.linux-x64.3.1.19.nupkg.sha512"
+  ],
+  "logs": []
+}
