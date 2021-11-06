@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Ports", "1 - Ports", "{E9262FF5-D819-490B-ABC5-F776B436FA1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{EF21A076-739F-4078-B212-989AC3A3E829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Adapters", "3 - Adapters", "{01881F87-77B3-45A9-86CB-FF536B440585}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{869DC63C-3CCB-4C69-97B6-EAB23CA2D7FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B7BCF88C-2EE8-4315-A116-7889877F1101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Domain.Core", "src\Treinamento.Domain.Core\Treinamento.Domain.Core.csproj", "{B49706C9-1FD1-4FD6-B516-589ABA8A2377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Domain.Application", "src\Treinamento.Domain.Application\Treinamento.Domain.Application.csproj", "{981F7F28-0AC5-4ED4-9F11-DFE82AD8BD74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{052736E8-2E49-44C1-913E-3C3E91A64CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Adapters.DAL", "src\Treinamento.Adapters.DAL\Treinamento.Adapters.DAL.csproj", "{41A551F4-3547-49F1-AA35-7DAE9E1F347B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{56FB9030-CAF5-43A4-A709-455F616CACD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Adapters.IOC", "src\Treinamento.Adapters.IOC\Treinamento.Adapters.IOC.csproj", "{9DBCA3C5-308B-4159-9485-E48DED05A41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Ports.WebAPI", "src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI.csproj", "{5C2E186C-30B1-4726-8423-326427E501C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B49706C9-1FD1-4FD6-B516-589ABA8A2377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49706C9-1FD1-4FD6-B516-589ABA8A2377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49706C9-1FD1-4FD6-B516-589ABA8A2377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49706C9-1FD1-4FD6-B516-589ABA8A2377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981F7F28-0AC5-4ED4-9F11-DFE82AD8BD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981F7F28-0AC5-4ED4-9F11-DFE82AD8BD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981F7F28-0AC5-4ED4-9F11-DFE82AD8BD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981F7F28-0AC5-4ED4-9F11-DFE82AD8BD74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A551F4-3547-49F1-AA35-7DAE9E1F347B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A551F4-3547-49F1-AA35-7DAE9E1F347B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A551F4-3547-49F1-AA35-7DAE9E1F347B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A551F4-3547-49F1-AA35-7DAE9E1F347B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBCA3C5-308B-4159-9485-E48DED05A41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBCA3C5-308B-4159-9485-E48DED05A41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBCA3C5-308B-4159-9485-E48DED05A41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBCA3C5-308B-4159-9485-E48DED05A41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2E186C-30B1-4726-8423-326427E501C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2E186C-30B1-4726-8423-326427E501C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2E186C-30B1-4726-8423-326427E501C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2E186C-30B1-4726-8423-326427E501C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{869DC63C-3CCB-4C69-97B6-EAB23CA2D7FF} = {EF21A076-739F-4078-B212-989AC3A3E829}
+		{B7BCF88C-2EE8-4315-A116-7889877F1101} = {EF21A076-739F-4078-B212-989AC3A3E829}
+		{B49706C9-1FD1-4FD6-B516-589ABA8A2377} = {B7BCF88C-2EE8-4315-A116-7889877F1101}
+		{981F7F28-0AC5-4ED4-9F11-DFE82AD8BD74} = {869DC63C-3CCB-4C69-97B6-EAB23CA2D7FF}
+		{052736E8-2E49-44C1-913E-3C3E91A64CCC} = {01881F87-77B3-45A9-86CB-FF536B440585}
+		{41A551F4-3547-49F1-AA35-7DAE9E1F347B} = {052736E8-2E49-44C1-913E-3C3E91A64CCC}
+		{56FB9030-CAF5-43A4-A709-455F616CACD6} = {01881F87-77B3-45A9-86CB-FF536B440585}
+		{9DBCA3C5-308B-4159-9485-E48DED05A41B} = {56FB9030-CAF5-43A4-A709-455F616CACD6}
+		{5C2E186C-30B1-4726-8423-326427E501C7} = {E9262FF5-D819-490B-ABC5-F776B436FA1C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB1E5476-4C1D-415C-8FF7-D75930CBEDB4}
+	EndGlobalSection
+EndGlobal

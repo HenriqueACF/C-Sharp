@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Treinamento.Adapters.DAL/1.0.0": {
+        "dependencies": {
+          "Treinamento.Domain.Application": "1.0.0",
+          "Treinamento.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Treinamento.Adapters.DAL.dll": {}
+        }
+      },
+      "Treinamento.Domain.Application/1.0.0": {
+        "dependencies": {
+          "Treinamento.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Treinamento.Domain.Application.dll": {}
+        }
+      },
+      "Treinamento.Domain.Core/1.0.0": {
+        "runtime": {
+          "Treinamento.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Treinamento.Adapters.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Treinamento.Domain.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Treinamento.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

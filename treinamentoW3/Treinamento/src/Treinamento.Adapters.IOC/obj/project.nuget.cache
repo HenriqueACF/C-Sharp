@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gtb4z7C0KBYULy9uxICQTBuFzWqS47DEojK4KAoiKfFq11+hWlaWhPW570LhsCzqVWx1DbKFRgGECEe15VXrdg==",
+  "success": true,
+  "projectFilePath": "D:\\Fabio\\W3\\git\\Cursos\\Net C#\\20211106\\Treinamento\\src\\Treinamento.Adapters.IOC\\Treinamento.Adapters.IOC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabio\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\fabio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\fabio\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
