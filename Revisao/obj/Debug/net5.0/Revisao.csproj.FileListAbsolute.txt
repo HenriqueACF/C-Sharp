@@ -1,0 +1,16 @@
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/obj/Debug/net5.0/Revisao.csproj.AssemblyReference.cache
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/obj/Debug/net5.0/Revisao.GeneratedMSBuildEditorConfig.editorconfig
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/obj/Debug/net5.0/Revisao.AssemblyInfoInputs.cache
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/obj/Debug/net5.0/Revisao.AssemblyInfo.cs
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/obj/Debug/net5.0/Revisao.csproj.CoreCompileInputs.cache
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/bin/Debug/net5.0/Revisao
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/bin/Debug/net5.0/Revisao.deps.json
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/bin/Debug/net5.0/Revisao.runtimeconfig.json
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/bin/Debug/net5.0/Revisao.runtimeconfig.dev.json
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/bin/Debug/net5.0/Revisao.dll
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/bin/Debug/net5.0/ref/Revisao.dll
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/bin/Debug/net5.0/Revisao.pdb
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/obj/Debug/net5.0/Revisao.dll
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/obj/Debug/net5.0/ref/Revisao.dll
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/obj/Debug/net5.0/Revisao.pdb
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/Revisao/obj/Debug/net5.0/Revisao.genruntimeconfig.cache

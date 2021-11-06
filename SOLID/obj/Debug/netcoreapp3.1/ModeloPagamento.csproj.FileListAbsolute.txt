@@ -1,0 +1,5 @@
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/SOLID/obj/Debug/netcoreapp3.1/ModeloPagamento.csproj.AssemblyReference.cache
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/SOLID/obj/Debug/netcoreapp3.1/ModeloPagamento.GeneratedMSBuildEditorConfig.editorconfig
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/SOLID/obj/Debug/netcoreapp3.1/ModeloPagamento.AssemblyInfoInputs.cache
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/SOLID/obj/Debug/netcoreapp3.1/ModeloPagamento.AssemblyInfo.cs
+/home/h3nrique/Henrique/Projetos/c#/C-Sharp/SOLID/obj/Debug/netcoreapp3.1/ModeloPagamento.csproj.CoreCompileInputs.cache
