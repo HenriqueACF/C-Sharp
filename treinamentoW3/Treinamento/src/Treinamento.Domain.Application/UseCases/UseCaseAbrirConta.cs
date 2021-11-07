@@ -1,21 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Treinamento.Adapters.DAL.Interfaces;
 using Treinamento.Domain.Application.Interfaces;
 using Treinamento.Domain.Core.Models;
-using Treinamento.Domain.Core.Models.VM;
+using Treinamento.Domain.Core.ValueObjetcs.Transacao;
 
 namespace Treinamento.Domain.Application.UseCases
 {
     public class UseCaseAbrirConta : IUseCaseAbrirConta
     {
+        protected readonly IContaRepository _repo;
 
-
-        public Conta NovaConta(ContaVM vm)
+        public UseCaseAbrirConta(IContaRepository repo)
         {
-            return new Conta(vm);
+            _repo = repo;
         }
+
+        public async Task<Conta> NovaConta(TransacaoAbrirConta vm)
+        {
+
+            return await _repo.AbrirConta(new Conta(vm));
+        }
+
+
+        //public async Task<bool> FecharConta(TransacaoFecharConta vm)
+        //{
+
+        //    return await _repo.FecharConta(new Conta(vm));
+
+        //}
     }
 }

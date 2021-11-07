@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Treinamento.Domain.Core.Models.VM;
+using Treinamento.Domain.Core.ValueObjetcs.Transacao;
 
 namespace Treinamento.Domain.Core.Models
 {
@@ -20,7 +16,7 @@ namespace Treinamento.Domain.Core.Models
         public string Senha { get; private set; }
 
 
-        public Conta(ContaVM conta)
+        public Conta(TransacaoAbrirConta conta)
         {
             this.Agencia = conta.Agencia;
             this.Nome = conta.Nome;

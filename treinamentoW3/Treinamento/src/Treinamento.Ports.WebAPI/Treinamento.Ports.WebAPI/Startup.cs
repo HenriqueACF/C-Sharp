@@ -36,7 +36,7 @@ namespace Treinamento.Ports.WebAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Treinamento.Ports.WebAPI", Version = "v1" });
             });
 
-
+            DALInjectorExtensions.RegisterDAL(services, Configuration);
             DomainInjectorExtensions.RegisterDomain(services, Configuration);
         }
 

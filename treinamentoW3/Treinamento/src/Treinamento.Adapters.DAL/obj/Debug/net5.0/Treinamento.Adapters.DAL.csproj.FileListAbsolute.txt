@@ -2,9 +2,7 @@ D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\bin\Debug\net5.0\Treinamento.Adapters.DAL.dll
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\bin\Debug\net5.0\ref\Treinamento.Adapters.DAL.dll
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\bin\Debug\net5.0\Treinamento.Adapters.DAL.pdb
-D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\bin\Debug\net5.0\Treinamento.Domain.Application.dll
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\bin\Debug\net5.0\Treinamento.Domain.Core.dll
-D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\bin\Debug\net5.0\Treinamento.Domain.Application.pdb
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\bin\Debug\net5.0\Treinamento.Domain.Core.pdb
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\obj\Debug\net5.0\Treinamento.Adapters.DAL.csproj.AssemblyReference.cache
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Adapters.DAL\obj\Debug\net5.0\Treinamento.Adapters.DAL.GeneratedMSBuildEditorConfig.editorconfig

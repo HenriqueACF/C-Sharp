@@ -35,3 +35,10 @@ D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\Treinamento.Adapters.IOC.pdb
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\Treinamento.Domain.Application.pdb
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\Treinamento.Domain.Core.pdb
+D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\Dapper.dll
+D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Ports.WebAPI\Treinamento.Ports.WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

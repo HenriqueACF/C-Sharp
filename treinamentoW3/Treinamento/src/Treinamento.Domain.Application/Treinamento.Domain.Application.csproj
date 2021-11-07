@@ -1,11 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Treinamento.Adapters.DAL\Treinamento.Adapters.DAL.csproj" />
     <ProjectReference Include="..\Treinamento.Domain.Core\Treinamento.Domain.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\Repositories\" />
   </ItemGroup>
 
 </Project>

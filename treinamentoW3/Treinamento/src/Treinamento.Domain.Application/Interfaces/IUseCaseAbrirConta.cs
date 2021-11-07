@@ -1,12 +1,13 @@
 ﻿
+using System.Threading.Tasks;
 using Treinamento.Domain.Core.Models;
-using Treinamento.Domain.Core.Models.VM;
+using Treinamento.Domain.Core.ValueObjetcs.Transacao;
 
 namespace Treinamento.Domain.Application.Interfaces
 {
     public interface IUseCaseAbrirConta
     {
-        Conta NovaConta(ContaVM vm);
+        Task<Conta> NovaConta(TransacaoAbrirConta vm);
 
     }
 }

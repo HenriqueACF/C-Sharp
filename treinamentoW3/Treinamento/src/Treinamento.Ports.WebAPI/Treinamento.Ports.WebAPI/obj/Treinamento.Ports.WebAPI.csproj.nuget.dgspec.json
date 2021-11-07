@@ -34,9 +34,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Fabio\\W3\\git\\Cursos\\Net C#\\20211106\\Treinamento\\src\\Treinamento.Domain.Application\\Treinamento.Domain.Application.csproj": {
-                "projectPath": "D:\\Fabio\\W3\\git\\Cursos\\Net C#\\20211106\\Treinamento\\src\\Treinamento.Domain.Application\\Treinamento.Domain.Application.csproj"
-              },
               "D:\\Fabio\\W3\\git\\Cursos\\Net C#\\20211106\\Treinamento\\src\\Treinamento.Domain.Core\\Treinamento.Domain.Core.csproj": {
                 "projectPath": "D:\\Fabio\\W3\\git\\Cursos\\Net C#\\20211106\\Treinamento\\src\\Treinamento.Domain.Core\\Treinamento.Domain.Core.csproj"
               }
@@ -52,6 +49,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -181,6 +192,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\Fabio\\W3\\git\\Cursos\\Net C#\\20211106\\Treinamento\\src\\Treinamento.Adapters.DAL\\Treinamento.Adapters.DAL.csproj": {
+                "projectPath": "D:\\Fabio\\W3\\git\\Cursos\\Net C#\\20211106\\Treinamento\\src\\Treinamento.Adapters.DAL\\Treinamento.Adapters.DAL.csproj"
+              },
               "D:\\Fabio\\W3\\git\\Cursos\\Net C#\\20211106\\Treinamento\\src\\Treinamento.Domain.Core\\Treinamento.Domain.Core.csproj": {
                 "projectPath": "D:\\Fabio\\W3\\git\\Cursos\\Net C#\\20211106\\Treinamento\\src\\Treinamento.Domain.Core\\Treinamento.Domain.Core.csproj"
               }

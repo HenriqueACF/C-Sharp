@@ -13,3 +13,5 @@ D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Domain.Applic
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Domain.Application\obj\Debug\net5.0\Treinamento.Domain.Application.dll
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Domain.Application\obj\Debug\net5.0\ref\Treinamento.Domain.Application.dll
 D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Domain.Application\obj\Debug\net5.0\Treinamento.Domain.Application.pdb
+D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Domain.Application\bin\Debug\net5.0\Treinamento.Adapters.DAL.dll
+D:\Fabio\W3\git\Cursos\Net C#\20211106\Treinamento\src\Treinamento.Domain.Application\bin\Debug\net5.0\Treinamento.Adapters.DAL.pdb
