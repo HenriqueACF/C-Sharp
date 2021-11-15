@@ -1,0 +1,16 @@
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/bin/Debug/net5.0/TextEditor
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/bin/Debug/net5.0/TextEditor.deps.json
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/bin/Debug/net5.0/TextEditor.runtimeconfig.json
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/bin/Debug/net5.0/TextEditor.runtimeconfig.dev.json
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/bin/Debug/net5.0/TextEditor.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/bin/Debug/net5.0/ref/TextEditor.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/bin/Debug/net5.0/TextEditor.pdb
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/obj/Debug/net5.0/TextEditor.csproj.AssemblyReference.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/obj/Debug/net5.0/TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/obj/Debug/net5.0/TextEditor.AssemblyInfoInputs.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/obj/Debug/net5.0/TextEditor.AssemblyInfo.cs
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/obj/Debug/net5.0/TextEditor.csproj.CoreCompileInputs.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/obj/Debug/net5.0/TextEditor.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/obj/Debug/net5.0/ref/TextEditor.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/obj/Debug/net5.0/TextEditor.pdb
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/TextEditor/obj/Debug/net5.0/TextEditor.genruntimeconfig.cache
