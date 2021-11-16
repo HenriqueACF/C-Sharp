@@ -1,0 +1,16 @@
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/bin/Debug/net5.0/EditorHtml
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/bin/Debug/net5.0/EditorHtml.deps.json
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/bin/Debug/net5.0/EditorHtml.runtimeconfig.json
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/bin/Debug/net5.0/EditorHtml.runtimeconfig.dev.json
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/bin/Debug/net5.0/EditorHtml.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/bin/Debug/net5.0/ref/EditorHtml.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/bin/Debug/net5.0/EditorHtml.pdb
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/obj/Debug/net5.0/EditorHtml.csproj.AssemblyReference.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/obj/Debug/net5.0/EditorHtml.GeneratedMSBuildEditorConfig.editorconfig
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/obj/Debug/net5.0/EditorHtml.AssemblyInfoInputs.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/obj/Debug/net5.0/EditorHtml.AssemblyInfo.cs
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/obj/Debug/net5.0/EditorHtml.csproj.CoreCompileInputs.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/obj/Debug/net5.0/EditorHtml.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/obj/Debug/net5.0/ref/EditorHtml.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/obj/Debug/net5.0/EditorHtml.pdb
+/home/h3nrique/Henrique/Projetos/C-Sharp/04-Balta.io/EditorHtml/obj/Debug/net5.0/EditorHtml.genruntimeconfig.cache
