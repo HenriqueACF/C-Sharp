@@ -1,13 +1,18 @@
+using System.Collections.Generic;
 using System.Security;
+using BaltaApplicationOOP.NotificationContext;
+using BaltaApplicationOOP.SharedContext;
 
 namespace BaltaApplicationOOP.ContentContext
 {
-    public class CareerItem
+    public class CareerItem : Base
     {
+        public IList <string> Notifications { get; set; }
+        
         public CareerItem(int order, string title, string description, Course course)
         {
             if (course == null)
-                throw new SecurityException("O curso não pode ser nulo!");
+                AddNotification(new Notification("Course", "Curso Invalido"));
             Order = order;
             Title = title;
             Description = description;

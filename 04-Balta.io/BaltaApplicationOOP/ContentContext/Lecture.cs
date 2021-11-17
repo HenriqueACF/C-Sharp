@@ -1,8 +1,9 @@
 using BaltaApplicationOOP.ContentContext.Enums;
+using BaltaApplicationOOP.SharedContext;
 
 namespace BaltaApplicationOOP.ContentContext
 {
-    public class Lecture
+    public class Lecture: Base
         {
             public int Ordem { get; set; }
             public string Title { get; set; }

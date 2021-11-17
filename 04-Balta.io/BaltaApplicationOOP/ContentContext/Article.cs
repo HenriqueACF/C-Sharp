@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using BaltaApplicationOOP.NotificationContext;
+
 namespace BaltaApplicationOOP.ContentContext
 {
     public class Article: Content

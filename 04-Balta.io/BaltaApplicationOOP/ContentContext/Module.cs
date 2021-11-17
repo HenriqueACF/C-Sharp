@@ -1,8 +1,9 @@
 using System.Collections.Generic;
+using BaltaApplicationOOP.SharedContext;
 
 namespace BaltaApplicationOOP.ContentContext
 {
-    public class Module
+    public class Module : Base
         {
             public Module()
             {
