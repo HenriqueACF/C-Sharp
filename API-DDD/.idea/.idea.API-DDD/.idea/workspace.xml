@@ -5,7 +5,20 @@
     <projectFile profileName="WebAPI">WebAPI/WebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a1833ee-c7ac-46f6-bcd2-4ba200ecb62a" name="Changes" comment="" />
+    <list default="true" id="5a1833ee-c7ac-46f6-bcd2-4ba200ecb62a" name="Changes" comment="chore deleting and organizing folders">
+      <change afterPath="$PROJECT_DIR$/Dominio/Interfaces/Genericos/IGenericos.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dominio/Interfaces/INoticia.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dominio/Interfaces/IUsuario.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dominio/Interfaces/InterfaceServiços/IServicoNoticia.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dominio/Servicos/ServicosNoticia.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API-DDD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API-DDD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominio/Dominio.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Dominio/Dominio.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominio/obj/Dominio.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dominio/obj/Dominio.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominio/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dominio/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominio/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dominio/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominio/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dominio/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominio/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Dominio/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Aplicação/obj/Debug/net5.0/Aplicação.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21FQnEIKtcRG6i5iVkU6xgaujqk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -31,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebAPI">
@@ -76,6 +86,7 @@
       <updated>1637534533481</updated>
       <workItem from="1637534548345" duration="1887000" />
       <workItem from="1637582367908" duration="3556000" />
+      <workItem from="1637599725760" duration="3748000" />
     </task>
     <task id="LOCAL-00001" summary="init api with ddd">
       <created>1637536331043</created>
@@ -91,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637585837604</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chore deleting and organizing folders">
+      <created>1637599900717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637599900717</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +135,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init api with ddd" />
     <MESSAGE value="create tables and install dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="create tables and install dependencies" />
+    <MESSAGE value="chore deleting and organizing folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore deleting and organizing folders" />
   </component>
 </project>
