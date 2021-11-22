@@ -1700,6 +1700,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Dominio": "1.0.0",
+          "Entidades": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
           "Microsoft.AspNetCore.Identity.UI": "5.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
