@@ -73,3 +73,4 @@
 /home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/WebAPI/obj/Debug/net5.0/ref/WebAPI.dll
 /home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/WebAPI/obj/Debug/net5.0/WebAPI.pdb
 /home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/WebAPI/obj/Debug/net5.0/WebAPI.genruntimeconfig.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/WebAPI/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

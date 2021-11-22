@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AU8Nb8gNdrHjit2yiDmQyhhQIKkgHSLtvFGBV8uXMzJxFqQZuLXiRdJHUpHhSYhCwf05HiecitaXrmElseF6uA==",
+  "dgSpecHash": "BrSmLx0+fJPB8ikJfAAHunnmmuWzfaHlK85adStrSWzaIhrWQVq5kMm+zjhi5lRzHcFqlYdLIBDsVV9tlmhAwA==",
   "success": true,
   "projectFilePath": "/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Aplicação/Aplicação.csproj",
   "expectedPackageFiles": [
     "/home/h3nrique/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/h3nrique/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.0/microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
     "/home/h3nrique/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.0/microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",
+    "/home/h3nrique/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/5.0.0/microsoft.aspnetcore.identity.entityframeworkcore.5.0.0.nupkg.sha512",
     "/home/h3nrique/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.0/microsoft.aspnetcore.identity.ui.5.0.0.nupkg.sha512",
     "/home/h3nrique/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/h3nrique/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",
