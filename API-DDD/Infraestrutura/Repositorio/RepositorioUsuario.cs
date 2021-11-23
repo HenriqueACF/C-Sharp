@@ -29,7 +29,8 @@ namespace Infraestrutura.Repositorio
                         Email = email,
                         PasswordHash = senha,
                         Idade = idade,
-                        Celular = celular
+                        Celular = celular,
+                        Tipo = Entidades.Enums.TipoUsuario.comum
                     });
 
                    await data.SaveChangesAsync();
