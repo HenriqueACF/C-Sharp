@@ -1,0 +1,15 @@
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/bin/Debug/net5.0/Entidades.deps.json
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/bin/Debug/net5.0/Entidades.runtimeconfig.json
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/bin/Debug/net5.0/Entidades.runtimeconfig.dev.json
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/bin/Debug/net5.0/Entidades.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/bin/Debug/net5.0/ref/Entidades.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/bin/Debug/net5.0/Entidades.pdb
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/obj/Debug/net5.0/Entidades.csproj.AssemblyReference.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/obj/Debug/net5.0/Entidades.GeneratedMSBuildEditorConfig.editorconfig
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/obj/Debug/net5.0/Entidades.AssemblyInfoInputs.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/obj/Debug/net5.0/Entidades.AssemblyInfo.cs
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/obj/Debug/net5.0/Entidades.csproj.CoreCompileInputs.cache
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/obj/Debug/net5.0/Entidades.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/obj/Debug/net5.0/ref/Entidades.dll
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/obj/Debug/net5.0/Entidades.pdb
+/home/h3nrique/Henrique/Projetos/C-Sharp/API-DDD/Entidades/obj/Debug/net5.0/Entidades.genruntimeconfig.cache

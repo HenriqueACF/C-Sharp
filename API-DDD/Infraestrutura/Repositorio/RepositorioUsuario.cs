@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Dominio.Interfaces;
 using Entidades.Entidades;
@@ -41,6 +42,24 @@ namespace Infraestrutura.Repositorio
             }
 
             return true;
+        }
+
+        public async Task<bool> ExisteUsuario(string email, string senha)
+        {
+            try
+            {
+                using (var data = new Contexto(_optionsbuilder))
+                {
+                    return await data.ApplicationUser
+                        .Where(u => u.Email.Equals(email) && u.PasswordHash.Equals(senha))
+                        .AsNoTracking()
+                        .AnyAsync();
+                }
+            }
+            catch (Exception )
+            {
+                return false;
+            }
         }
     }
 }
