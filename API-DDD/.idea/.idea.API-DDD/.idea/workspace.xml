@@ -7,10 +7,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5a1833ee-c7ac-46f6-bcd2-4ba200ecb62a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API-DDD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API-DDD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dominio/obj/Debug/net5.0/Dominio.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dominio/obj/Debug/net5.0/Dominio.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entidades/obj/Debug/net5.0/Entidades.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entidades/obj/Debug/net5.0/Entidades.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net5.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net5.0/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net5.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net5.0/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net5.0/ref/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net5.0/ref/WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net5.0/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net5.0/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net5.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net5.0/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net5.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net5.0/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net5.0/ref/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net5.0/ref/WebAPI.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +95,8 @@
       <workItem from="1637582367908" duration="3556000" />
       <workItem from="1637599725760" duration="13197000" />
       <workItem from="1637669126445" duration="23039000" />
-      <workItem from="1637753994736" duration="1055000" />
+      <workItem from="1637753994736" duration="3385000" />
+      <workItem from="1637842357201" duration="582000" />
     </task>
     <task id="LOCAL-00001" summary="init api with ddd">
       <created>1637536331043</created>
@@ -157,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637702061986</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat add cors">
+      <created>1637755114919</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637755114919</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +201,7 @@
     <MESSAGE value="feat methods for creating user" />
     <MESSAGE value="chore type user" />
     <MESSAGE value="feat methods to noticia" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat methods to noticia" />
+    <MESSAGE value="feat add cors" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat add cors" />
   </component>
 </project>
