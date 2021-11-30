@@ -1,0 +1,12 @@
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/bin/Debug/net5.0/Entities.deps.json
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/bin/Debug/net5.0/Entities.dll
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/bin/Debug/net5.0/ref/Entities.dll
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/bin/Debug/net5.0/Entities.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/obj/Debug/net5.0/Entities.csproj.AssemblyReference.cache
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/obj/Debug/net5.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/obj/Debug/net5.0/Entities.AssemblyInfoInputs.cache
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/obj/Debug/net5.0/Entities.AssemblyInfo.cs
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/obj/Debug/net5.0/Entities.csproj.CoreCompileInputs.cache
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/obj/Debug/net5.0/Entities.dll
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/obj/Debug/net5.0/ref/Entities.dll
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Entities/obj/Debug/net5.0/Entities.pdb
