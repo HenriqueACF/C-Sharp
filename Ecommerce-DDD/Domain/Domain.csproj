@@ -5,10 +5,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\IGenerics" />
-      <Folder Include="Interfaces\IProduct" />
-      <Folder Include="Interfaces\IServices" />
-      <Folder Include="Services" />
+      <ProjectReference Include="..\Entities\Entities.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Services\ServiceProduct.cs" />
     </ItemGroup>
 
 </Project>

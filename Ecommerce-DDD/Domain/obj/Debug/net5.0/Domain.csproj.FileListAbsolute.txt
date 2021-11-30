@@ -10,3 +10,6 @@
 /home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Domain/obj/Debug/net5.0/Domain.dll
 /home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Domain/obj/Debug/net5.0/ref/Domain.dll
 /home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Domain/obj/Debug/net5.0/Domain.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Domain/bin/Debug/net5.0/Entities.dll
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Domain/bin/Debug/net5.0/Entities.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Domain/obj/Debug/net5.0/Domain.csproj.CopyComplete
