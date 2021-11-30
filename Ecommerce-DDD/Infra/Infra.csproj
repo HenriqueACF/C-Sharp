@@ -4,4 +4,10 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Configurations" />
+      <Folder Include="Repository\Generics" />
+      <Folder Include="Repository\Repositories" />
+    </ItemGroup>
+
 </Project>
