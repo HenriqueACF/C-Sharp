@@ -1,0 +1,13 @@
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/bin/Debug/netcoreapp3.1/Entities.dll
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/bin/Debug/netcoreapp3.1/Entities.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.AssemblyReference.cache
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/obj/Debug/netcoreapp3.1/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CopyComplete
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
