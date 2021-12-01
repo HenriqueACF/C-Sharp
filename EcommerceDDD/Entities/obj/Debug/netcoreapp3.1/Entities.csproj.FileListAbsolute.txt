@@ -1,0 +1,13 @@
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/bin/Debug/netcoreapp3.1/Entities.deps.json
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/bin/Debug/netcoreapp3.1/Entities.runtimeconfig.json
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/bin/Debug/netcoreapp3.1/Entities.runtimeconfig.dev.json
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/bin/Debug/netcoreapp3.1/Entities.dll
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/bin/Debug/netcoreapp3.1/Entities.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/obj/Debug/netcoreapp3.1/Entities.csproj.AssemblyReference.cache
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/obj/Debug/netcoreapp3.1/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfoInputs.cache
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfo.cs
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/obj/Debug/netcoreapp3.1/Entities.csproj.CoreCompileInputs.cache
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/obj/Debug/netcoreapp3.1/Entities.dll
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/obj/Debug/netcoreapp3.1/Entities.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/EcommerceDDD/Entities/obj/Debug/netcoreapp3.1/Entities.genruntimeconfig.cache
