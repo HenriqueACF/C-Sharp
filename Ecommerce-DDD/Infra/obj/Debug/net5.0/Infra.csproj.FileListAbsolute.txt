@@ -10,3 +10,8 @@
 /home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Infra/obj/Debug/net5.0/Infra.dll
 /home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Infra/obj/Debug/net5.0/ref/Infra.dll
 /home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Infra/obj/Debug/net5.0/Infra.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Infra/bin/Debug/net5.0/Domain.dll
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Infra/bin/Debug/net5.0/Entities.dll
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Infra/bin/Debug/net5.0/Domain.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Infra/bin/Debug/net5.0/Entities.pdb
+/home/henrique/Henrique/Projetos/C-Sharp/Ecommerce-DDD/Infra/obj/Debug/net5.0/Infra.csproj.CopyComplete
