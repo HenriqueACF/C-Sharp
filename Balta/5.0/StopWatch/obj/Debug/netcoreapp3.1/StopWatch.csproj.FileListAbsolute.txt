@@ -1,0 +1,13 @@
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/bin/Debug/netcoreapp3.1/StopWatch
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/bin/Debug/netcoreapp3.1/StopWatch.deps.json
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/bin/Debug/netcoreapp3.1/StopWatch.runtimeconfig.json
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/bin/Debug/netcoreapp3.1/StopWatch.runtimeconfig.dev.json
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/bin/Debug/netcoreapp3.1/StopWatch.dll
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/bin/Debug/netcoreapp3.1/StopWatch.pdb
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/obj/Debug/netcoreapp3.1/StopWatch.csprojAssemblyReference.cache
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/obj/Debug/netcoreapp3.1/StopWatch.AssemblyInfoInputs.cache
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/obj/Debug/netcoreapp3.1/StopWatch.AssemblyInfo.cs
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/obj/Debug/netcoreapp3.1/StopWatch.csproj.CoreCompileInputs.cache
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/obj/Debug/netcoreapp3.1/StopWatch.dll
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/obj/Debug/netcoreapp3.1/StopWatch.pdb
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/5.0/StopWatch/obj/Debug/netcoreapp3.1/StopWatch.genruntimeconfig.cache
