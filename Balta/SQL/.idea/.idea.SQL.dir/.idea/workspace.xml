@@ -25,12 +25,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../6.0/blog/Controllers/CategoryController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/Data/BlogDataContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../6.0/blog/Data/BlogDataContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../6.0/blog/Migrations/20220308180120_CreateDataBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../6.0/blog/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../6.0/blog/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="269T43shiVaK85RP8D7jquKfc1u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,15 +45,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646834611925</updated>
       <workItem from="1646834617568" duration="211000" />
+      <workItem from="1646850363684" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary="fundamentals sql">
       <created>1646834751283</created>
@@ -64,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646834751284</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project balta">
+      <created>1646850428712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646850428712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="fundamentals sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="fundamentals sql" />
+    <MESSAGE value="project balta" />
+    <option name="LAST_COMMIT_MESSAGE" value="project balta" />
   </component>
 </project>
