@@ -1,4 +1,5 @@
 using Blog.Data;
+using blog.Extensions;
 using Blog.Models;
 using blog.ViewModel;
 using Microsoft.AspNetCore.Mvc;
@@ -16,11 +17,11 @@ namespace Blog.Controllers
             try
             {
                 var categories = await context.Categories.ToListAsync();
-                return Ok(categories);
+                return Ok(new ResultViewModel<List<Category>>(categories));
             }
-            catch (Exception ex)
+            catch 
             {
-                return StatusCode(500, "Falha interna no servidor");
+                return StatusCode(500, new ResultViewModel<List<Category>>("Falha interna no servidor"));
             }
         }
         
@@ -32,12 +33,13 @@ namespace Blog.Controllers
             try
             {
                 var category = await context.Categories.FirstOrDefaultAsync(x=>x.Id == id);
-                if (category == null) return NotFound();
-                return Ok(category);
+                if (category == null) return NotFound(new ResultViewModel<Category>("Conteudo não encontrado"));
+                
+                return Ok(new ResultViewModel<Category>(category));
             }
             catch (Exception ex)
             {
-                return StatusCode(500, "Falha interna no servidor");
+                return StatusCode(500,new ResultViewModel<Category>("Falha interna no servidor") );
             }
         }
         
@@ -47,7 +49,8 @@ namespace Blog.Controllers
             [FromServices] BlogDataContext context)
         {
             
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) 
+                return BadRequest(new ResultViewModel<Category>(ModelState.GetErros()));
             
             try
             {
