@@ -8,7 +8,7 @@ namespace blog.Services;
 
 public class TokenService
 {
-    public string GenerateToke(User user)
+    public string GenerateToken(User user)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.ASCII.GetBytes(Configuration.JwtKey);
