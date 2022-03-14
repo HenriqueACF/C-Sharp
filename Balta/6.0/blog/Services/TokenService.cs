@@ -2,7 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using blog.Extensions;
-using Blog.Models;
+using blog.Models;
 using Microsoft.IdentityModel.Tokens;
 
 namespace blog.Services;

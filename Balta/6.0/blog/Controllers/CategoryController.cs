@@ -1,11 +1,12 @@
-using Blog.Data;
+using blog.Data;
 using blog.Extensions;
-using Blog.Models;
+using blog.Models;
 using blog.ViewModel;
+using blog.ViewModel.Categories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Blog.Controllers
+namespace blog.Controllers
 {
     [ApiController]
     public class CategoryController : ControllerBase

@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using Blog.Models;
+﻿using blog.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Blog.Data.Mappings
+namespace blog.Data.Mappings
 {
     public class UserMap : IEntityTypeConfiguration<User>
     {
