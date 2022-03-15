@@ -5,7 +5,6 @@
 /home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/bin/Debug/net6.0/blog.deps.json
 /home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/bin/Debug/net6.0/blog.runtimeconfig.json
 /home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/bin/Debug/net6.0/blog.dll
-/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/bin/Debug/net6.0/ref/blog.dll
 /home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/bin/Debug/net6.0/blog.pdb
 /home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/bin/Debug/net6.0/Humanizer.dll
 /home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -59,3 +58,4 @@
 /home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/obj/Debug/net6.0/ref/blog.dll
 /home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/obj/Debug/net6.0/blog.pdb
 /home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/obj/Debug/net6.0/blog.genruntimeconfig.cache
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/6.0/blog/obj/Debug/net6.0/refint/blog.dll
