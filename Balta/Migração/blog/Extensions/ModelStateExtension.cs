@@ -1,16 +1,21 @@
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace blog.Extensions;
-
-public static class ModelStateExtension
+namespace blog.Extensions
 {
-    public static List<string> GetErros(this ModelStateDictionary modelState)
+
+    public static class ModelStateExtension
     {
-        var result = new List<string>();
-        foreach (var item in modelState.Values)
+        public static List<string> GetErros(this ModelStateDictionary modelState)
         {
-            result.AddRange(item.Errors.Select((error => error.ErrorMessage)));
+            var result = new List<string>();
+            foreach (var item in modelState.Values)
+            {
+                result.AddRange(item.Errors.Select((error => error.ErrorMessage)));
+            }
+
+            return result;
         }
-        return result;
     }
 }

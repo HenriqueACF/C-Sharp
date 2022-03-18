@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace blog.Models
 {
     public class Post

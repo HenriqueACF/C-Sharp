@@ -1,0 +1,7 @@
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/Migração/blog/obj/Debug/net5.0/blog.csproj.AssemblyReference.cache
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/Migração/blog/obj/Debug/net5.0/blog.GeneratedMSBuildEditorConfig.editorconfig
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/Migração/blog/obj/Debug/net5.0/blog.AssemblyInfoInputs.cache
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/Migração/blog/obj/Debug/net5.0/blog.AssemblyInfo.cs
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/Migração/blog/obj/Debug/net5.0/blog.csproj.CoreCompileInputs.cache
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/Migração/blog/obj/Debug/net5.0/blog.MvcApplicationPartsAssemblyInfo.cs
+/home/h3nriqueassis/Henrique/Github - Projects/C-Sharp/Balta/Migração/blog/obj/Debug/net5.0/blog.MvcApplicationPartsAssemblyInfo.cache

@@ -8,7 +8,6 @@ using blog.Services;
 using blog.ViewModel;
 using blog.ViewModel.Accounts;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SecureIdentity.Password;

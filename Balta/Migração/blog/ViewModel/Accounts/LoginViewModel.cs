@@ -1,13 +1,15 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace blog.ViewModel.Accounts;
-
-public class LoginViewModel
+namespace blog.ViewModel.Accounts
 {
-    [Required(ErrorMessage = "Informe o E-mail")]
-    [EmailAddress(ErrorMessage = "E-mail inválido")]
-    public string Email { get; set; }
-    
-    [Required(ErrorMessage = "Informe a senha")]
-    public string Password { get; set; }
+
+    public class LoginViewModel
+    {
+        [Required(ErrorMessage = "Informe o E-mail")]
+        [EmailAddress(ErrorMessage = "E-mail inválido")]
+        public string Email { get; set; }
+
+        [Required(ErrorMessage = "Informe a senha")]
+        public string Password { get; set; }
+    }
 }

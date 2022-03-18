@@ -1,18 +1,21 @@
+using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
 using blog.Models;
-using Microsoft.AspNetCore.Authorization;
 
-namespace blog.Extensions;
-
-public static class RoleClaimsExtensions
+namespace blog.Extensions
 {
-    public static IEnumerable<Claim> GetClaims(this User user)
+    
+    public static class RoleClaimsExtensions
     {
-        var result = new List<Claim>()
+        public static IEnumerable<Claim> GetClaims(this User user)
         {
-            new(ClaimTypes.Name, user.Email)
-        };
-        result.AddRange(user.Roles.Select(role => new Claim(ClaimTypes.Role, role.Slug)));
-        return result;
+            var result = new List<Claim>()
+            {
+                new(ClaimTypes.Name, user.Email)
+            };
+            result.AddRange(user.Roles.Select(role => new Claim(ClaimTypes.Role, role.Slug)));
+            return result;
+        }
     }
 }
