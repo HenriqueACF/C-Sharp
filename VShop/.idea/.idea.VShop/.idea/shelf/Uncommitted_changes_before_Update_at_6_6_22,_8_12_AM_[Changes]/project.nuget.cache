@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "JgnHbkKwIRFkodW6V4EKXkF5ZVR5RG40qsvWqsdyhYMAu+1WNpO/qfWsaLfIV8+MRXdDRaC4dIBR7zISGEV86g==",
+  "success": true,
+  "projectFilePath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/VShop.ProductApi/VShop.ProductApi.csproj",
+  "expectedPackageFiles": [
+    "/home/h3nriqueassis/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
