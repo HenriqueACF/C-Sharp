@@ -11,22 +11,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32619816-7ce5-4458-b4da-75e57cab0b8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/Context/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/Models/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/Models/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VShop/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VShop/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/Migrations/20220606124604_Initial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/Migrations/20220606124604_Initial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/Migrations/20220606125135_SeedProducts.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/Migrations/20220606125135_SeedProducts.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/MySqlConnector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/VShop.ProductAPI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/VShop.ProductAPI.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/VShop.ProductAPI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/VShop.ProductAPI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/VShop.ProductAPI.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/ref/VShop.ProductAPI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/refint/VShop.ProductAPI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/VShop.ProductAPI.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/staticwebassets.pack.sentinel" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/VShop.ProductAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/VShop.ProductAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/Debug/net6.0/VShop.ProductAPI.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/obj/VShop.ProductAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/VShop.ProductAPI.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/obj/VShop.ProductAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/VShop.ProductAPI.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VShop.ProductAPI/Context/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VShop.ProductAPI/Context/AppDbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +84,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys_rider",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -141,17 +165,28 @@
       <option name="presentableId" value="Default" />
       <updated>1654510178227</updated>
       <workItem from="1654510191414" duration="1529000" />
-      <workItem from="1654514623995" duration="1729000" />
+      <workItem from="1654514623995" duration="5562000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: create model and context">
+      <created>1654516457531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654516457531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="feat: create model and context" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create model and context" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
