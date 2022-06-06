@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iLiazaQF4cVuIb8eGzOjUW2Gu4cJmkA3wEWM/0Xqu6DiK2wMcBnCY4dlNYkh5lpco5WQrmSloddYSLiE2xHphg==",
+  "dgSpecHash": "JhK7EmFtT7h5MiS16PiCjKbGooguZpnB8PthI7Gh4fyhta6VB+Tqyzdal3EixgdMJ+sbIedg+X9VHx6+3Uio6Q==",
   "success": true,
   "projectFilePath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/VShop.ProductAPI/VShop.ProductAPI.csproj",
   "expectedPackageFiles": [
+    "/home/h3nriqueassis/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.1/microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.1/microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
