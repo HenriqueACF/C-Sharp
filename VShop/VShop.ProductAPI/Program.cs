@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using VShop.ProductAPI.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var mySQLConnection = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<AppDbContext>(options => 
+    options.UseMySql(mySQLConnection,
+        ServerVersion.AutoDetect(mySQLConnection)));
 
 var app = builder.Build();
 
