@@ -38,8 +38,8 @@ namespace VShop.ProductAPI.Controllers
             return Ok(categoriesDto);
         }
         
-        [HttpGet("{id:int}", Name = "GetCategory")]
-        public async Task<ActionResult<CategoryDTO>> Get(int id)
+        [HttpGet("{int:id}", Name = "GetCategory")]
+        public async Task<ActionResult<CategoryDTO>> Get([FromRoute]int id)
         {
             var categoryDto = await _categoryService.GetCategoryById(id);
             if (categoryDto is null)
@@ -59,8 +59,8 @@ namespace VShop.ProductAPI.Controllers
                 new { id = categoryDto.CategoryId }, categoryDto);
         }
 
-        [HttpPut("{id: int}")]
-        public async Task<ActionResult> Put(int id, [FromBody] CategoryDTO categoryDto)
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Put([FromRoute] int id, [FromBody] CategoryDTO categoryDto)
         {
             if (id != categoryDto.CategoryId)
                 return BadRequest();
