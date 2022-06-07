@@ -1,3 +1,4 @@
+using System.Collections;
 using AutoMapper;
 using VShop.ProductAPI.DTOs;
 using VShop.ProductAPI.Models;
@@ -52,4 +53,5 @@ public class CategoryService : ICategoryService
         var categoryEntity = _categoryRepository.GetById(id).Result;
         await _categoryRepository.Delete(categoryEntity.CategoryId);
     }
+    
 }

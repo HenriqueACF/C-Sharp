@@ -1,3 +1,4 @@
+using System.Collections;
 using VShop.ProductAPI.DTOs;
 
 namespace VShop.ProductAPI.Services;
@@ -10,4 +11,5 @@ public interface ICategoryService
     Task AddCategory(CategoryDTO categoryDto);
     Task UpdateCategory(CategoryDTO categoryDto);
     Task RemoveCategory(int id);
+    Task<IEnumerable> GetAllCategories();
 }
