@@ -59,7 +59,7 @@ namespace VShop.ProductAPI.Controllers
                 new { id = categoryDto.CategoryId }, categoryDto);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("{int: id}")]
         public async Task<ActionResult> Put([FromRoute] int id, [FromBody] CategoryDTO categoryDto)
         {
             if (id != categoryDto.CategoryId)
