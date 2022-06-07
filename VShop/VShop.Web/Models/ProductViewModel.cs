@@ -4,19 +4,6 @@ namespace VShop.Web.Models;
 
 public class ProductViewModel
 {
-    private readonly IHttpClientFactory _clientFactory;
-    private const string apiEndpoint = "/api/products/";
-    private readonly JsonSerializerOptions _options;
-    private ProductViewModel productVM;
-    private IEnumerable<ProductViewModel> productsVM;
-
-    public ProductViewModel(IHttpClientFactory clientFactory)
-    {
-        _clientFactory = clientFactory;
-        _options = new JsonSerializerOptions 
-            { PropertyNameCaseInsensitive = true };
-    }
-
     public int Id { get; set; }
     public string? Name { get; set; }
     public decimal Price { get; set; }
