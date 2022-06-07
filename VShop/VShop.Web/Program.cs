@@ -1,6 +1,5 @@
 using VShop.Web.Services;
 using VShop.Web.Services.Contracts;
-using ICategoryService = VShop.ProductAPI.Services.ICategoryService;
 
 var builder = WebApplication.CreateBuilder(args);
 

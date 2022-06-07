@@ -11,5 +11,4 @@ public interface ICategoryService
     Task AddCategory(CategoryDTO categoryDto);
     Task UpdateCategory(CategoryDTO categoryDto);
     Task RemoveCategory(int id);
-    Task<IEnumerable> GetAllCategories();
 }
