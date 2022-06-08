@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "Ag2LrNP2B+8oEGdEx9Q+nxyakYTI0g+Us4GP217ljRo=",
+  "Hash": "P7yBn/9cmP6DpqoAs02pgEkVpanNJK0aXGG/q4N10HY=",
   "Source": "VShop.Web",
   "BasePath": "_content/VShop.Web",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/VShop.ProductAPI/VShop.ProductAPI.csproj",
+      "Version": 2,
+      "Source": "VShop.ProductAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "VShop.Web/wwwroot",
