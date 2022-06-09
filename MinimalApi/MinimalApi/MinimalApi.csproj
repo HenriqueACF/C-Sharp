@@ -7,7 +7,25 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.5" />
       <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net6.0\apphost" />
+      <Content Include="obj\Debug\net6.0\MinimalApi.csproj.CopyComplete" />
+      <Content Include="obj\Debug\net6.0\MinimalApi.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net6.0\MinimalApi.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net6.0\MinimalApi.dll" />
+      <Content Include="obj\Debug\net6.0\MinimalApi.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net6.0\MinimalApi.MvcApplicationPartsAssemblyInfo.cache" />
+      <Content Include="obj\Debug\net6.0\MinimalApi.pdb" />
+      <Content Include="obj\Debug\net6.0\staticwebassets.build.json" />
+      <Content Include="obj\staticwebassets.pack.sentinel" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\Debug\net6.0\MinimalApi.MvcApplicationPartsAssemblyInfo.cs" />
     </ItemGroup>
 
 </Project>
