@@ -1,6 +1,22 @@
+using POO.ContentContext.Enums;
+
 namespace POO.ContentContext;
 
 public class Career: Content
 {
-    public int Courses { get; set; }
+    public Career()
+    {
+        Items = new List<CareerItem>();
+    }
+    
+    public IList<CareerItem> Items { get; set; }
+
+    public int TotalCourses
+    {
+        get
+        {
+            return Items.Count;
+        }
+        
+    }
 }
