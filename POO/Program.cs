@@ -1,8 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using POO.ContentContext;
+﻿using POO.ContentContext;
 using POO.ContentContext.Enums;
-using POO.NotificationContext;
+using POO.SubscriptionContext;
 
 //ARTICLES
 var articles = new List<Article>();
@@ -53,6 +51,10 @@ foreach(var career in careers)
             Console.WriteLine($"{notification.Property} - {notification.Message}");
         }
     }
+
+    var payPalSubscription = new PayPalSubscription();
+    var student = new Student();
+    student.CreateSubscription(payPalSubscription);
 }
 
 
