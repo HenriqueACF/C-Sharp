@@ -18,8 +18,8 @@ foreach (var article in articles)
 
 //COURSES
 var courses = new List<Course>();
-var coursesOOP = new Course("Fundamentos OOP", "fundamentos-oop");
 var coursesCsharp = new Course("Fundamentos C#", "fundamentos-csharp");
+var coursesOOP = new Course("Fundamentos OOP", "fundamentos-oop");
 var coursesDotNet = new Course("Fundamentos DotNet","fundamentos-dotnet");
 
 courses.Add((coursesOOP));
@@ -29,9 +29,9 @@ courses.Add((coursesDotNet));
 //CAREER
 var careers = new List<Career>();
 var careerDotNet = new Career("Especialista DotNet", "especialista-dotnet");
-var careerItem1 = new CareerItem(1,"Comece por aqui", "primeiros passos com c#", null);
-var careerItem2 = new CareerItem(2,"Aprenda OOP", "criando uma api", null);
-var careerItem3 = new CareerItem(3,"DotNet", "criando uma api", null);
+var careerItem1 = new CareerItem(1,"Comece por aqui", "primeiros passos com c#", coursesCsharp);
+var careerItem2 = new CareerItem(2,"Aprenda OOP", "primeiros passos com oop", coursesOOP);
+var careerItem3 = new CareerItem(3,"DotNet", "criando uma api", coursesDotNet);
 
 careerDotNet.Items.Add(careerItem1);
 careerDotNet.Items.Add(careerItem2);
@@ -44,6 +44,8 @@ foreach(var career in careers)
     foreach (var item in career.Items.OrderBy(x => x.Order))
     {
         Console.WriteLine($"{item.Order} - {item.Title}");
+        Console.WriteLine(item.Course.Title);
+        Console.WriteLine(item.Course.Level);
     }
 }
 
