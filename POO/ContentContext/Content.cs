@@ -1,3 +1,5 @@
+using POO.SharedContext;
+
 namespace POO.ContentContext;
 
 public abstract class Content: Base

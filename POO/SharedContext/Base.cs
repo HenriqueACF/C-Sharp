@@ -1,6 +1,6 @@
 using POO.NotificationContext;
 
-namespace POO.ContentContext;
+namespace POO.SharedContext;
 
 public abstract class Base: Notifiable
 {
