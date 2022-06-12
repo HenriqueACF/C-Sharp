@@ -1,3 +1,5 @@
+using POO.NotificationContext;
+
 namespace POO.ContentContext.Enums;
 
 public class CareerItem: Base
@@ -5,7 +7,7 @@ public class CareerItem: Base
     public CareerItem(int order, string title, string description, Course course)
     {
         if (course == null)
-            throw new SystemException("The course cannot be null");
+            AddNotification(new Notification("Course", "Course is invalid"));
         
         Order = order;
         Title = title;
