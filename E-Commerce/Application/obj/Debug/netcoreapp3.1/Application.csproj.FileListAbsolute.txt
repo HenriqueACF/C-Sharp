@@ -8,3 +8,8 @@
 /home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
 /home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Application/obj/Debug/netcoreapp3.1/Application.dll
 /home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Application/obj/Debug/netcoreapp3.1/Application.pdb
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Application/bin/Debug/netcoreapp3.1/Domain.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Application/bin/Debug/netcoreapp3.1/Entities.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Application/bin/Debug/netcoreapp3.1/Entities.pdb
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
