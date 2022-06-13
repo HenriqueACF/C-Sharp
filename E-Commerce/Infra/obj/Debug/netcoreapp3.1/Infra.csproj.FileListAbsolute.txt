@@ -1,0 +1,10 @@
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/bin/Debug/netcoreapp3.1/Infra.deps.json
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/bin/Debug/netcoreapp3.1/Infra.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/bin/Debug/netcoreapp3.1/Infra.pdb
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/obj/Debug/netcoreapp3.1/Infra.csproj.AssemblyReference.cache
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/obj/Debug/netcoreapp3.1/Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/obj/Debug/netcoreapp3.1/Infra.AssemblyInfoInputs.cache
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/obj/Debug/netcoreapp3.1/Infra.AssemblyInfo.cs
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/obj/Debug/netcoreapp3.1/Infra.csproj.CoreCompileInputs.cache
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/obj/Debug/netcoreapp3.1/Infra.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Infra/obj/Debug/netcoreapp3.1/Infra.pdb

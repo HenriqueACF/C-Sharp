@@ -1,0 +1,10 @@
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/bin/Debug/netcoreapp3.1/Presentation.deps.json
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/bin/Debug/netcoreapp3.1/Presentation.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/bin/Debug/netcoreapp3.1/Presentation.pdb
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/obj/Debug/netcoreapp3.1/Presentation.csproj.AssemblyReference.cache
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/obj/Debug/netcoreapp3.1/Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/obj/Debug/netcoreapp3.1/Presentation.AssemblyInfoInputs.cache
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/obj/Debug/netcoreapp3.1/Presentation.AssemblyInfo.cs
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/obj/Debug/netcoreapp3.1/Presentation.csproj.CoreCompileInputs.cache
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/obj/Debug/netcoreapp3.1/Presentation.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/E-Commerce/Presentation/obj/Debug/netcoreapp3.1/Presentation.pdb
