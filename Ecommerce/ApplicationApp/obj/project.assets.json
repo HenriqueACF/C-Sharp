@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Domain >= 1.0.0",
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/h3nriqueassis/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/Ecommerce/Domain/Domain.csproj": {
+              "projectPath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/Ecommerce/Domain/Domain.csproj"
+            },
+            "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/Ecommerce/Entities/Entities.csproj": {
+              "projectPath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/Ecommerce/Entities/Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
