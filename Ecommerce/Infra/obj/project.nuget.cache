@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EjdtcBg9ykpQew8/k+o0ulZ92532Cdqkpnc2jqc5Mkc4+EXZX8LCyh4o6OAEZqbiqomIvwnD013q8KIAsBREew==",
+  "dgSpecHash": "J4o7XBPOOSQi1GZ3312Gtd4cVGLjFQct5d2UFQNiAgw3KyrIr0SiyZPiHTK7t5hpapQDnloVlu8z2gvnW9BOAA==",
   "success": true,
   "projectFilePath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/Ecommerce/Infra/Infra.csproj",
   "expectedPackageFiles": [
+    "/home/h3nriqueassis/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.6/microsoft.aspnetcore.cryptography.internal.3.1.6.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/3.1.6/microsoft.aspnetcore.cryptography.keyderivation.3.1.6.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/3.1.6/microsoft.aspnetcore.identity.entityframeworkcore.3.1.6.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
@@ -20,6 +23,8 @@
     "/home/h3nriqueassis/.nuget/packages/microsoft.extensions.configuration.binder/3.1.6/microsoft.extensions.configuration.binder.3.1.6.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.6/microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.6/microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/microsoft.extensions.identity.core/3.1.6/microsoft.extensions.identity.core.3.1.6.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/microsoft.extensions.identity.stores/3.1.6/microsoft.extensions.identity.stores.3.1.6.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.extensions.logging/3.1.6/microsoft.extensions.logging.3.1.6.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.6/microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/microsoft.extensions.options/3.1.6/microsoft.extensions.options.3.1.6.nupkg.sha512",

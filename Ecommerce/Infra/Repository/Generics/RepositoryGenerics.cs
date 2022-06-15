@@ -12,15 +12,15 @@ namespace Infra.Repository.Generics
     public class RepositoryGenerics<T> 
         : IGenerics<T>, IDisposable where T: class
     {
-        private readonly DbContextOptions<ContexBase> _OptionsBuilder;
+        private readonly DbContextOptions<ContextBase> _OptionsBuilder;
         public RepositoryGenerics()
         {
-            _OptionsBuilder = new DbContextOptions<ContexBase>();
+            _OptionsBuilder = new DbContextOptions<ContextBase>();
         }
         
         public async Task Add(T Object)
         {
-            using (var data = new ContexBase(_OptionsBuilder))
+            using (var data = new ContextBase(_OptionsBuilder))
             {
                 await data.Set<T>().AddAsync(Object);
                 await data.SaveChangesAsync();
@@ -29,7 +29,7 @@ namespace Infra.Repository.Generics
 
         public async Task Update(T Object)
         {
-            using (var data = new ContexBase(_OptionsBuilder))
+            using (var data = new ContextBase(_OptionsBuilder))
             {
                 data.Set<T>().Update(Object);
                 await data.SaveChangesAsync();
@@ -38,7 +38,7 @@ namespace Infra.Repository.Generics
 
         public async Task Delete(T Object)
         {
-            using (var data = new ContexBase(_OptionsBuilder))
+            using (var data = new ContextBase(_OptionsBuilder))
             {
                 data.Set<T>().Remove(Object);
                 await data.SaveChangesAsync();
@@ -47,7 +47,7 @@ namespace Infra.Repository.Generics
 
         public async Task<T> GetEntityById(int Id)
         {
-            using (var data = new ContexBase(_OptionsBuilder))
+            using (var data = new ContextBase(_OptionsBuilder))
             {
                 return await data.Set<T>().FindAsync(Id);
             }
@@ -55,7 +55,7 @@ namespace Infra.Repository.Generics
 
         public async Task<List<T>> List()
         {
-            using (var data = new ContexBase(_OptionsBuilder))
+            using (var data = new ContextBase(_OptionsBuilder))
             {
                 return await data.Set<T>().AsNoTracking().ToListAsync();
             }

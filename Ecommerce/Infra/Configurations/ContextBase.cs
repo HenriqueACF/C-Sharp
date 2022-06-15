@@ -1,11 +1,12 @@
 using Entities.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infra.Configurations
 {
-    public class ContexBase: DbContext
+    public class ContextBase: IdentityDbContext<ApplicationUser>
     {
-        public ContexBase(DbContextOptions<ContexBase> options): base(options)
+        public ContextBase(DbContextOptions<ContextBase> options): base(options)
         {
             
         }
