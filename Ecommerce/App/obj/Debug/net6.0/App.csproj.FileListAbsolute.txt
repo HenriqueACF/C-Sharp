@@ -1,0 +1,12 @@
+C:\Henrique\C-Sharp\Ecommerce\App\bin\Debug\net6.0\App.deps.json
+C:\Henrique\C-Sharp\Ecommerce\App\bin\Debug\net6.0\App.dll
+C:\Henrique\C-Sharp\Ecommerce\App\bin\Debug\net6.0\App.pdb
+C:\Henrique\C-Sharp\Ecommerce\App\obj\Debug\net6.0\App.csproj.AssemblyReference.cache
+C:\Henrique\C-Sharp\Ecommerce\App\obj\Debug\net6.0\App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Henrique\C-Sharp\Ecommerce\App\obj\Debug\net6.0\App.AssemblyInfoInputs.cache
+C:\Henrique\C-Sharp\Ecommerce\App\obj\Debug\net6.0\App.AssemblyInfo.cs
+C:\Henrique\C-Sharp\Ecommerce\App\obj\Debug\net6.0\App.csproj.CoreCompileInputs.cache
+C:\Henrique\C-Sharp\Ecommerce\App\obj\Debug\net6.0\App.dll
+C:\Henrique\C-Sharp\Ecommerce\App\obj\Debug\net6.0\refint\App.dll
+C:\Henrique\C-Sharp\Ecommerce\App\obj\Debug\net6.0\App.pdb
+C:\Henrique\C-Sharp\Ecommerce\App\obj\Debug\net6.0\ref\App.dll

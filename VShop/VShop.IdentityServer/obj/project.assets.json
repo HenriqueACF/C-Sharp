@@ -1607,24 +1607,30 @@
     ]
   },
   "packageFolders": {
-    "/home/h3nriqueassis/.nuget/packages/": {}
+    "C:\\Users\\henri\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/VShop.IdentityServer/VShop.IdentityServer.csproj",
+      "projectUniqueName": "C:\\Henrique\\C-Sharp\\VShop\\VShop.IdentityServer\\VShop.IdentityServer.csproj",
       "projectName": "VShop.IdentityServer",
-      "projectPath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/VShop.IdentityServer/VShop.IdentityServer.csproj",
-      "packagesPath": "/home/h3nriqueassis/.nuget/packages/",
-      "outputPath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/VShop.IdentityServer/obj/",
+      "projectPath": "C:\\Henrique\\C-Sharp\\VShop\\VShop.IdentityServer\\VShop.IdentityServer.csproj",
+      "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
+      "outputPath": "C:\\Henrique\\C-Sharp\\VShop\\VShop.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/h3nriqueassis/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1684,7 +1690,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
