@@ -1,0 +1,7 @@
+C:\Users\henri\source\repos\TreinamentoApi\obj\Debug\net6.0\TreinamentoApi.csproj.AssemblyReference.cache
+C:\Users\henri\source\repos\TreinamentoApi\obj\Debug\net6.0\TreinamentoApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\source\repos\TreinamentoApi\obj\Debug\net6.0\TreinamentoApi.AssemblyInfoInputs.cache
+C:\Users\henri\source\repos\TreinamentoApi\obj\Debug\net6.0\TreinamentoApi.AssemblyInfo.cs
+C:\Users\henri\source\repos\TreinamentoApi\obj\Debug\net6.0\TreinamentoApi.csproj.CoreCompileInputs.cache
+C:\Users\henri\source\repos\TreinamentoApi\obj\Debug\net6.0\TreinamentoApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\henri\source\repos\TreinamentoApi\obj\Debug\net6.0\TreinamentoApi.MvcApplicationPartsAssemblyInfo.cache
