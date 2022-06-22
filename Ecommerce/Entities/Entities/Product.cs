@@ -13,7 +13,7 @@ namespace Entities.Entities;
         
         [Column("PRD_NAME")]
         [Display(Name = "Nome")]
-        public int Name { get; set; }
+        public string Name { get; set; }
         
         [Column("PRD_VALUE")]
         [Display(Name = "Valor")]
