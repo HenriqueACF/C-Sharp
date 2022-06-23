@@ -7,13 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fbdaa12-6b5d-4ee8-8bbf-d8c3179402ff" name="Changes" comment="init conta corrente">
+    <list default="true" id="6fbdaa12-6b5d-4ee8-8bbf-d8c3179402ff" name="Changes" comment="feat: add saque to conta corrente">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ref/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ref/ByteBank.dll" afterDir="false" />
@@ -85,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656004245887</updated>
       <workItem from="1656004290377" duration="3482000" />
-      <workItem from="1656008230567" duration="604000" />
+      <workItem from="1656008230567" duration="1900000" />
     </task>
     <task id="LOCAL-00001" summary="init bytebank">
       <created>1656004480665</created>
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656006163656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: add saque to conta corrente">
+      <created>1656009077613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656009077613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +131,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init bytebank" />
     <MESSAGE value="init conta corrente" />
-    <option name="LAST_COMMIT_MESSAGE" value="init conta corrente" />
+    <MESSAGE value="feat: add saque to conta corrente" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add saque to conta corrente" />
   </component>
 </project>

@@ -33,8 +33,14 @@ Console.WriteLine($"Saldo: {conta2.saldo}");
 
 //SAQUE
 Console.WriteLine($"Saldo do(a) {conta1.titular} pré saque: {conta1.saldo}");
-conta1.Sacar(-140);
+bool saque = conta1.Sacar(40);
+Console.WriteLine($"Saque realizado? {saque}");
 Console.WriteLine($"Saldo do(a) {conta1.titular} pós saque: {conta1.saldo}");
+
+//DEPOSITAR
+Console.WriteLine($"Saldo do(a) {conta1.titular} pré deposito; {conta1.saldo}");
+conta1.Depositar(60);
+Console.WriteLine($"Saldo do(a) {conta1.titular} pós deposito: {conta1.saldo}");
 
 
 Console.ReadKey();
