@@ -17,9 +17,24 @@ conta2.nome_agencia = "Agencia Bairro";
 conta2.saldo = 999.63;
 
     
-Console.WriteLine($"Titular: {titular}");
-Console.WriteLine($"Conta: {conta}");
-Console.WriteLine($"Numero da Agencia : {numero_agencia}");
-Console.WriteLine($"Nome da Agencia : {nome_agencia}");
-Console.WriteLine($"Saldo: {saldo}");   
+
+// =============================================================
+Console.WriteLine($"Titular: {conta1.titular}");
+Console.WriteLine($"Conta: {conta1.conta}");
+Console.WriteLine($"Numero da Agencia : {conta1.numero_agencia}");
+Console.WriteLine($"Nome da Agencia : {conta1.nome_agencia}");
+Console.WriteLine($"Saldo: {conta1.saldo}");
+
+Console.WriteLine($"Titular: {conta2.titular}");
+Console.WriteLine($"Conta: {conta2.conta}");
+Console.WriteLine($"Numero da Agencia : {conta2.numero_agencia}");
+Console.WriteLine($"Nome da Agencia : {conta2.nome_agencia}");
+Console.WriteLine($"Saldo: {conta2.saldo}");
+
+//SAQUE
+Console.WriteLine($"Saldo do(a) {conta1.titular} pré saque: {conta1.saldo}");
+conta1.Sacar(-140);
+Console.WriteLine($"Saldo do(a) {conta1.titular} pós saque: {conta1.saldo}");
+
+
 Console.ReadKey();

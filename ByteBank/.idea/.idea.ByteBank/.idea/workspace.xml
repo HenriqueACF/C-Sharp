@@ -7,30 +7,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fbdaa12-6b5d-4ee8-8bbf-d8c3179402ff" name="Changes" comment="init bytebank">
-      <change afterPath="$PROJECT_DIR$/ByteBank/ContaCorrente.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ref/ByteBank.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/refint/ByteBank.dll" afterDir="false" />
+    <list default="true" id="6fbdaa12-6b5d-4ee8-8bbf-d8c3179402ff" name="Changes" comment="init conta corrente">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ref/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ref/ByteBank.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/refint/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/refint/ByteBank.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../TreinamentoApi/obj/Release/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,20 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ByteBank" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -85,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656004245887</updated>
-      <workItem from="1656004290377" duration="1766000" />
+      <workItem from="1656004290377" duration="3482000" />
+      <workItem from="1656008230567" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="init bytebank">
       <created>1656004480665</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656004480665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init conta corrente">
+      <created>1656006163656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656006163656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init bytebank" />
-    <option name="LAST_COMMIT_MESSAGE" value="init bytebank" />
+    <MESSAGE value="init conta corrente" />
+    <option name="LAST_COMMIT_MESSAGE" value="init conta corrente" />
   </component>
 </project>
