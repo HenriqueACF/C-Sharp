@@ -36,11 +36,22 @@ Console.WriteLine($"Saldo do(a) {conta1.titular} pré saque: {conta1.saldo}");
 bool saque = conta1.Sacar(40);
 Console.WriteLine($"Saque realizado? {saque}");
 Console.WriteLine($"Saldo do(a) {conta1.titular} pós saque: {conta1.saldo}");
+Console.WriteLine("-------------------------------------");
 
 //DEPOSITAR
 Console.WriteLine($"Saldo do(a) {conta1.titular} pré deposito; {conta1.saldo}");
 conta1.Depositar(60);
 Console.WriteLine($"Saldo do(a) {conta1.titular} pós deposito: {conta1.saldo}");
+Console.WriteLine("-------------------------------------");
 
+//Tranferir
+Console.WriteLine($"Saldo do(a) {conta1.titular} pré transferencia {conta1.saldo}");
+Console.WriteLine($"Saldo do(a) {conta2.titular} pré transferencia {conta2.saldo}");
+bool transferir = conta1.Transferir(100, conta2);
+Console.WriteLine($"Transferencia realizada com sucesso? {transferir}");
+
+Console.WriteLine($"Saldo do(a) {conta1.titular} pós transferencia {conta1.saldo}");
+Console.WriteLine($"Saldo do(a) {conta2.titular} pós transferencia {conta2.saldo}");
+Console.WriteLine("-------------------------------------");
 
 Console.ReadKey();
