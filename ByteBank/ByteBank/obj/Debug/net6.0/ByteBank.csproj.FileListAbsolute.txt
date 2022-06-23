@@ -1,0 +1,15 @@
+C:\Henrique\C-Sharp\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.exe
+C:\Henrique\C-Sharp\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.deps.json
+C:\Henrique\C-Sharp\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.runtimeconfig.json
+C:\Henrique\C-Sharp\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.dll
+C:\Henrique\C-Sharp\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.pdb
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.csproj.AssemblyReference.cache
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.AssemblyInfoInputs.cache
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.AssemblyInfo.cs
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.csproj.CoreCompileInputs.cache
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.dll
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\refint\ByteBank.dll
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.pdb
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.genruntimeconfig.cache
+C:\Henrique\C-Sharp\ByteBank\ByteBank\obj\Debug\net6.0\ref\ByteBank.dll
