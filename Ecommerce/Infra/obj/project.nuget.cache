@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nih6CPEDL0akvz2jzQWOwu3ZP07S8YoFeoHjc1LOrZAO6SFD7FpJKpdfi4bif97ZyBLOvlTPW1+NewzUmfROIg==",
+  "dgSpecHash": "3iST7L1RUDAtYeVb9k91bAP0i0XDfZ91dupKZtCjeCZTZvAzjorry9SWt5q7KIz6O/LXHAk49jRttnSCt9mbaQ==",
   "success": true,
   "projectFilePath": "C:\\Henrique\\C-Sharp\\Ecommerce\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\henri\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.6\\microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",
+    "C:\\Users\\henri\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.6\\microsoft.aspnetcore.cryptography.keyderivation.6.0.6.nupkg.sha512",
+    "C:\\Users\\henri\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.6\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -17,6 +20,8 @@
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.6\\microsoft.extensions.identity.core.6.0.6.nupkg.sha512",
+    "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.6\\microsoft.extensions.identity.stores.6.0.6.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",

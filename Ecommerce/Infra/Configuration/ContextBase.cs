@@ -1,9 +1,10 @@
 ﻿using Entities.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infra.Configuration;
 
-public class ContextBase: DbContext
+public class ContextBase: IdentityDbContext<ApplicationUser>
 {
     public ContextBase(DbContextOptions<ContextBase> options): base(options)
     {
@@ -18,10 +19,14 @@ public class ContextBase: DbContext
         base.OnConfiguring(optionsBuilder);
     }
 
+        //TODO -> criar imagem sqlserver no docker e configurar para usar
     private string GetStringConnectionConfig()
     {
         string strCon = "";
         return strCon;
     }
 }
+
+//12:00
+//05
 
