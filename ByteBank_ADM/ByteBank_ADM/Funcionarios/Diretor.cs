@@ -2,14 +2,14 @@
 
 public class Diretor: Funcionario
 {
-    public Diretor(string cpf, double salario): base(cpf, salario)
+    public Diretor(string cpf): base(cpf, 4000)
     {
         //CPF = cpf;
-        Console.WriteLine("Criando um diretor");
+        // Console.WriteLine("Criando um diretor");
     }
     public override double getBonificacao()
     {
-        return Salario + base.getBonificacao();
+        return Salario *= 0.05;
     }
     
     public override void aumentarsalario()

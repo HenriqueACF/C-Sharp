@@ -1,6 +1,6 @@
 ﻿namespace ByteBank_ADM.Funcionarios;
 
-public class Funcionario
+public abstract class Funcionario
 {
     // 0 -- Funcionario
     // 1 -- diretor
@@ -8,7 +8,7 @@ public class Funcionario
     public Funcionario(string cpf, double salario)
     {
         CPF = cpf;
-        Console.WriteLine("Criando um funcionario");
+        // Console.WriteLine("Criando um funcionario");
         TotalFuncionarios++;
         Salario = salario;
     }    

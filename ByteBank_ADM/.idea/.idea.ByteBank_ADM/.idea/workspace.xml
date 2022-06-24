@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9308ac99-6636-401a-8237-54d4fd9a5dc1" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/ByteBank_ADM/Funcionarios/Utils/GerenciadorBonificaçao.cs" afterDir="false" />
+    <list default="true" id="9308ac99-6636-401a-8237-54d4fd9a5dc1" name="Changes" comment="feat: aumento de salario">
+      <change afterPath="$PROJECT_DIR$/ByteBank_ADM/Funcionarios/Auxiliar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank_ADM/Funcionarios/Dev.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ByteBank_ADM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ByteBank_ADM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank_ADM/Funcionarios/Diretor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank_ADM/Funcionarios/Diretor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank_ADM/Funcionarios/Funcionario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank_ADM/Funcionarios/Funcionario.cs" afterDir="false" />
@@ -20,6 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Henrique/C-Sharp/ByteBank_ADM/ByteBank_ADM/Funcionarios/Diretor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ByteBank_ADM/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -71,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080712109</updated>
-      <workItem from="1656080725338" duration="12192000" />
+      <workItem from="1656080725338" duration="14165000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1656092876299</created>
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656092876299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: aumento de salario">
+      <created>1656101576357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656101576357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="feat: aumento de salario" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: aumento de salario" />
   </component>
 </project>
