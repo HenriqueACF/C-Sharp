@@ -68,13 +68,18 @@ Console.WriteLine("-------------------------------------");
 // conta3.numero_agencia = 25;
 // Console.WriteLine($"cliente: {cliente.nome}");
 // Console.WriteLine($"cliente': {conta3.titular.nome}"); 
-ContaCorrente henrique = new ContaCorrente();
+Cliente henrique = new Cliente();
+henrique.nome = "henrique";
 
 
-ContaCorrente conta4 = new ContaCorrente();
+ContaCorrente conta4 = new ContaCorrente(23, "123456-X");
 conta4.Saldo = 150;
 conta4.Titular = henrique;
+
+Console.WriteLine(conta4.Titular.nome);
 Console.WriteLine(conta4.Saldo);
+Console.WriteLine(conta4.Numero_agencia);
+Console.WriteLine(conta4.Conta);
 
 
 
