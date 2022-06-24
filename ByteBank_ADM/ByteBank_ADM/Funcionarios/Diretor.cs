@@ -1,13 +1,19 @@
 ﻿namespace ByteBank_ADM.Funcionarios;
 
-public class Diretor
+public class Diretor: Funcionario
 {
-    public string Nome { get; set; }
-    public string CPF { get; set; }
-    public double Salario { get; set; }
-
-    public double getBonificacao()
+    public Diretor(string cpf, double salario): base(cpf, salario)
     {
-        return Salario * 0.2;
+        //CPF = cpf;
+        Console.WriteLine("Criando um diretor");
+    }
+    public override double getBonificacao()
+    {
+        return Salario + base.getBonificacao();
+    }
+    
+    public override void aumentarsalario()
+    {
+        this.Salario *= 1.15;
     }
 }
