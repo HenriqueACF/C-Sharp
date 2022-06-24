@@ -8,6 +8,7 @@ public class ContaCorrente
     {
         Numero_agencia = numero_agencia;
         Conta = conta;
+        TotalContasCriadas += 1;
     }
     // private Cliente titular;
     public Cliente Titular { get; set; }
@@ -130,4 +131,6 @@ public class ContaCorrente
             }
         }
     }
+
+    public static int TotalContasCriadas{ get; set;}
 }

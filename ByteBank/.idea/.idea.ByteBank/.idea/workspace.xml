@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fbdaa12-6b5d-4ee8-8bbf-d8c3179402ff" name="Changes" comment="">
+    <list default="true" id="6fbdaa12-6b5d-4ee8-8bbf-d8c3179402ff" name="Changes" comment="feat: creat constructor">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Program.cs" afterDir="false" />
@@ -85,7 +85,7 @@
       <updated>1656004245887</updated>
       <workItem from="1656004290377" duration="3482000" />
       <workItem from="1656008230567" duration="9365000" />
-      <workItem from="1656073134267" duration="4500000" />
+      <workItem from="1656073134267" duration="5601000" />
     </task>
     <task id="LOCAL-00001" summary="init bytebank">
       <created>1656004480665</created>
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656017685708</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: creat constructor">
+      <created>1656078970400</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656078970400</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +164,7 @@
     <MESSAGE value="feat: add deposito to conta corrente" />
     <MESSAGE value="feat: add transferencia to conta corrente" />
     <MESSAGE value="init props" />
-    <option name="LAST_COMMIT_MESSAGE" value="init props" />
+    <MESSAGE value="feat: creat constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: creat constructor" />
   </component>
 </project>

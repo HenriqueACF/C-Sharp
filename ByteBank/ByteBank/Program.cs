@@ -72,16 +72,18 @@ Cliente henrique = new Cliente();
 henrique.nome = "henrique";
 
 
-ContaCorrente conta4 = new ContaCorrente(23, "123456-X");
-conta4.Saldo = 150;
-conta4.Titular = henrique;
+// ContaCorrente conta4 = new ContaCorrente(23, "123456-X");
+// conta4.Saldo = 150;
+// conta4.Titular = henrique;
+//
+// Console.WriteLine(conta4.Titular.nome);
+// Console.WriteLine(conta4.Saldo);
+// Console.WriteLine(conta4.Numero_agencia);
+// Console.WriteLine(conta4.Conta);
 
-Console.WriteLine(conta4.Titular.nome);
-Console.WriteLine(conta4.Saldo);
-Console.WriteLine(conta4.Numero_agencia);
-Console.WriteLine(conta4.Conta);
-
-
+ContaCorrente conta5 = new ContaCorrente(123, "123456-X");
+ContaCorrente conta6 = new ContaCorrente(321, "123456-X");
+Console.WriteLine(ContaCorrente.TotalContasCriadas);
 
 
 Console.ReadKey();
