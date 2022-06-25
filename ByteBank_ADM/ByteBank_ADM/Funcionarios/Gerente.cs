@@ -1,23 +1,23 @@
-﻿using ByteBank_ADM.Sistema_Interno;
+using ByteBank_ADM.Sistema_Interno;
 using ByteBank_ADM.Sistema_Interno.Interface;
 
-namespace ByteBank_ADM.Funcionarios;
+namespace ByteBank_ADM.Funcionarios.Utils;
 
-public class Diretor: FuncionarioAutenticavel
+public class Gerente: FuncionarioAutenticavel
 {
-    public Diretor(string cpf): base(cpf, 4000)
+    public Gerente(string cpf): base(cpf, 6000)
     {
         //CPF = cpf;
         // Console.WriteLine("Criando um diretor");
     }
     public override double getBonificacao()
     {
-        return Salario * 0.05;
+        return Salario * 0.22;
     }
     
     public override void aumentarsalario()
     {
-        this.Salario *= 0.3;
+        this.Salario *= 0.35;
     }
     
     // public string Senha { get; set; }

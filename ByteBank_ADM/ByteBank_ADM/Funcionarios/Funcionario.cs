@@ -22,4 +22,12 @@ public abstract class Funcionario
 
     public abstract void aumentarsalario();
     public abstract double getBonificacao();
+    
+    public string Senha { get; set; }
+
+    public bool Autenticar(string senha)
+    {
+        
+        return this.Senha == senha;
+    }
 }

@@ -1,5 +1,7 @@
 ﻿using ByteBank_ADM.Funcionarios;
 using ByteBank_ADM.Funcionarios.Utils;
+using ByteBank_ADM.Parceria;
+using ByteBank_ADM.Sistema_Interno;
 
 Console.WriteLine("Welcome to the ByteBank_ADM");
 
@@ -51,7 +53,8 @@ Console.WriteLine("Welcome to the ByteBank_ADM");
 // Console.WriteLine($"Aumento do salario {aux.Salario}");
 
 
-CalcularBonificacao();
+//CalcularBonificacao();
+UsarSistema();
 void CalcularBonificacao()
 {
     GerenciadorBonificaçao gerenciador = new GerenciadorBonificaçao();
@@ -65,10 +68,14 @@ void CalcularBonificacao()
     Diretor diretor = new Diretor("963852741");
     diretor.Nome = "nome de diretor";
     
+    Gerente gerente = new Gerente("999999999");
+    gerente.Nome = "nome de gerente";
+    
     
     gerenciador.Registrar(desenvolvedor);
     gerenciador.Registrar(auxiliar);
     gerenciador.Registrar(diretor);
+    gerenciador.Registrar(gerente);
 
     Console.WriteLine($"Total de bonificação: {gerenciador.getBonificacao()}");
     
@@ -76,6 +83,26 @@ void CalcularBonificacao()
     
     
 
+}
+
+void UsarSistema()
+{
+    SistemaInterno sistemaInterno = new SistemaInterno();
+
+    Diretor roberta = new Diretor("1111111");
+    roberta.Nome = "Roberta";
+    roberta.Senha = "123";
+    
+    Gerente roberto = new Gerente("22222222");
+    roberto.Nome = "Roberto";
+    roberto.Senha = "123";
+    
+    ParceiroComercial henrique = new ParceiroComercial();
+    henrique.Senha = "321";
+
+    sistemaInterno.Logar(roberta, "123");
+    sistemaInterno.Logar(roberto, "123");
+    sistemaInterno.Logar(henrique, "321");
 }
 
 
