@@ -9,11 +9,11 @@ public class Diretor: Funcionario
     }
     public override double getBonificacao()
     {
-        return Salario *= 0.05;
+        return Salario * 0.05;
     }
     
     public override void aumentarsalario()
     {
-        this.Salario *= 1.15;
+        this.Salario *= 0.3;
     }
 }

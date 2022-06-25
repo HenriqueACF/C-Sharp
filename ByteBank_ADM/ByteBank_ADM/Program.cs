@@ -56,8 +56,8 @@ void CalcularBonificacao()
 {
     GerenciadorBonificaçao gerenciador = new GerenciadorBonificaçao();
 
-    Dev henrique = new Dev("123456789");
-    henrique.Nome = "Henrique";
+    Dev desenvolvedor = new Dev("123456789");
+    desenvolvedor.Nome = "Henrique";
     
     Auxiliar auxiliar = new Auxiliar("741852963");
     auxiliar.Nome = "nome de auxiliar";
@@ -66,7 +66,7 @@ void CalcularBonificacao()
     diretor.Nome = "nome de diretor";
     
     
-    gerenciador.Registrar(henrique);
+    gerenciador.Registrar(desenvolvedor);
     gerenciador.Registrar(auxiliar);
     gerenciador.Registrar(diretor);
 

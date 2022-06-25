@@ -8,11 +8,11 @@ public class Auxiliar: Funcionario
     
     public override double getBonificacao()
     {
-        return Salario *= 0.1;
+        return Salario * 0.1;
     }
     
     public override void aumentarsalario()
     {
-        this.Salario *= 1.05;
+        this.Salario *= 0.10;
     }
 }
