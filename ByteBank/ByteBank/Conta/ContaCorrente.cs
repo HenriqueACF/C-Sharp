@@ -8,10 +8,15 @@ public class ContaCorrente
     {
         Numero_agencia = numero_agencia;
         Conta = conta;
-        TotalContasCriadas += 1;
+        TaxaOperacao = 30 / TotalDeContasCriadas;
+        TotalDeContasCriadas += 1;
     }
     // private Cliente titular;
     public Cliente Titular { get; set; }
+    
+   public static double TaxaOperacao { get; private set; }
+   public static int TotalDeContasCriadas { get; private set; }
+   
     private string _conta;
 
     public string Conta
@@ -131,6 +136,4 @@ public class ContaCorrente
             }
         }
     }
-
-    public static int TotalContasCriadas{ get; set;}
 }

@@ -68,8 +68,8 @@ Console.WriteLine("-------------------------------------");
 // conta3.numero_agencia = 25;
 // Console.WriteLine($"cliente: {cliente.nome}");
 // Console.WriteLine($"cliente': {conta3.titular.nome}"); 
-Cliente henrique = new Cliente();
-henrique.nome = "henrique";
+// Cliente henrique = new Cliente();
+// henrique.nome = "henrique";
 
 
 // ContaCorrente conta4 = new ContaCorrente(23, "123456-X");
@@ -81,9 +81,12 @@ henrique.nome = "henrique";
 // Console.WriteLine(conta4.Numero_agencia);
 // Console.WriteLine(conta4.Conta);
 
-ContaCorrente conta5 = new ContaCorrente(123, "123456-X");
-ContaCorrente conta6 = new ContaCorrente(321, "123456-X");
-Console.WriteLine(ContaCorrente.TotalContasCriadas);
+// ContaCorrente conta5 = new ContaCorrente(123, "123456-X");
+// ContaCorrente conta6 = new ContaCorrente(321, "123456-X");
+// Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
+
+ContaCorrente conta = new ContaCorrente(1000, "123456-X");
+Console.WriteLine(ContaCorrente.TaxaOperacao);
 
 
 Console.ReadKey();
