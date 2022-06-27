@@ -8,15 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fbdaa12-6b5d-4ee8-8bbf-d8c3179402ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ByteBank.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/apphost" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/ByteBank.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/ByteBank.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/ByteBank.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/ByteBank.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteBank/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/project.packagespec.json" afterDir="false" />
@@ -30,6 +36,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../TreinamentoApi/obj/Release/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +62,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "RoslynSettingsId",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,8 +97,8 @@
       <workItem from="1656004290377" duration="3482000" />
       <workItem from="1656008230567" duration="9365000" />
       <workItem from="1656073134267" duration="6326000" />
-      <workItem from="1656279809580" duration="247000" />
-      <workItem from="1656280179538" duration="1042000" />
+      <workItem from="1656330961213" duration="228000" />
+      <workItem from="1656331285972" duration="5179000" />
     </task>
     <task id="LOCAL-00001" summary="init bytebank">
       <created>1656004480665</created>

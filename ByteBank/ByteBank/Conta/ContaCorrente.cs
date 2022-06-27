@@ -8,6 +8,7 @@ public class ContaCorrente
     {
         Numero_agencia = numero_agencia;
         Conta = conta;
+        
         TaxaOperacao = 30 / TotalDeContasCriadas;
         TotalDeContasCriadas += 1;
     }

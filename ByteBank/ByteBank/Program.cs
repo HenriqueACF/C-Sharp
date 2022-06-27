@@ -53,7 +53,7 @@ Console.WriteLine("Welcome to the byteBank");
 //
 // Console.WriteLine($"Saldo do(a) {conta1.titular} pós transferencia {conta1.saldo}");
 // Console.WriteLine($"Saldo do(a) {conta2.titular} pós transferencia {conta2.saldo}");
-Console.WriteLine("-------------------------------------");
+// Console.WriteLine("-------------------------------------");
 
 // Cliente cliente = new Cliente();
 // cliente.nome = "HenriqueACF";
@@ -85,8 +85,53 @@ Console.WriteLine("-------------------------------------");
 // ContaCorrente conta6 = new ContaCorrente(321, "123456-X");
 // Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
-ContaCorrente conta = new ContaCorrente(1000, "123456-X");
-Console.WriteLine(ContaCorrente.TaxaOperacao);
+// ContaCorrente conta = new ContaCorrente(1000, "123456-X");
+// Console.WriteLine(ContaCorrente.TaxaOperacao);
 
 
 Console.ReadKey();
+//TODO -> EXCEPTION
+// try
+// {
+//     Metodo();
+// }
+// catch (DivideByZeroException)
+// {
+//     Console.WriteLine("Ocorreu um erro!");  
+// }
+// catch (NullReferenceException)
+// {
+//     Console.WriteLine("Ocorreu um erro.");
+// }
+// Console.ReadLine();
+//
+// void Metodo()
+// {
+//     try
+//     {
+//         TestaDivisao(0);
+//     }
+//     catch (DivideByZeroException)
+//     {
+//         Console.WriteLine("Ocorreu um erro!");  
+//     }
+// }
+//
+// static void TestaDivisao(int divisor)
+// {
+//     int resultado = Dividir(10, divisor);
+//     Console.WriteLine($"O resultado da divisão de 10 por {divisor} é {resultado}");
+// }
+//
+// static int Dividir(int numero, int divisor)
+// {
+//     try
+//     {
+//         return numero / divisor;
+//     }
+//     catch
+//     {
+//         Console.WriteLine($"Exceção com numero = {numero} e divisor = {divisor}");
+//         throw;
+//     }
+// }
