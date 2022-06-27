@@ -90,7 +90,7 @@ Console.WriteLine("Welcome to the byteBank");
 
 
 Console.ReadKey();
-//TODO -> EXCEPTION
+//TODO -> EXCEPTION 
 // try
 // {
 //     Metodo();
@@ -104,7 +104,7 @@ Console.ReadKey();
 //     Console.WriteLine("Ocorreu um erro.");
 // }
 // Console.ReadLine();
-//
+
 // void Metodo()
 // {
 //     try
@@ -133,5 +133,61 @@ Console.ReadKey();
 //     {
 //         Console.WriteLine($"Exceção com numero = {numero} e divisor = {divisor}");
 //         throw;
+//     }
+//}
+
+// try
+// {
+    // ContaCorrente conta = new ContaCorrente(0, 0);
+    // conta.Depositar(100);
+    // Console.WriteLine($"Saldo da conta: {conta.Saldo}");
+    // conta.Sacar(50);
+    // Console.WriteLine($"Saldo pós deposito: {conta.Saldo}");
+
+    // Metodo();
+
+// }
+// catch (ArgumentException ex)
+// {
+//     Console.WriteLine($"Erro no parametro: {ex.ParamName}");
+//     Console.WriteLine($"Ocorreu um erro");
+//     Console.WriteLine($"{ex.Message}");
+// }
+// catch (SaldoInsuficienteException ex)
+// {
+//     Console.WriteLine(ex.Message);
+//     Console.WriteLine($"Exception saldo insuficiente");
+//     Console.WriteLine(ex.StackTrace);
+//     Console.WriteLine(ex.Message);
+// }
+// catch (OperacaoFinanceiraException ex)
+// {
+//     Console.WriteLine(ex.Message);
+//     Console.WriteLine(ex.StackTrace);
+//     Console.WriteLine($"Informações da Inner Exception");
+//     Console.WriteLine(ex.InnerException.Message);
+//     Console.WriteLine(ex.InnerException.StackTrace);
+// }
+
+// CarregarContas();
+//
+// static void CarregarContas()
+// {
+//     LeitorDeArquivo leitor = new LeitorDeArquivo("contas.txt");
+//     try
+//     {
+//         leitor.LerProximaLinha();
+//         leitor.LerProximaLinha();
+//         leitor.LerProximaLinha();
+//         leitor.Fechar();
+//     }
+//     catch (IOException ex)
+//     {
+//         Console.WriteLine("Exceção IOException");
+//         leitor.Fechar();
+//     }
+//     finally
+//     {
+//         leitor.Fechar();
 //     }
 // }

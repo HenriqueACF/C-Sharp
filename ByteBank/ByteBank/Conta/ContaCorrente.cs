@@ -4,80 +4,64 @@ namespace ByteBank;
 
 public class ContaCorrente
 {
-    public ContaCorrente(int numero_agencia, string conta)
+    public ContaCorrente(int numero_agencia, int agencia)
     {
         Numero_agencia = numero_agencia;
-        Conta = conta;
+        //Conta = conta;
+        Agencia = agencia;
         
-        TaxaOperacao = 30 / TotalDeContasCriadas;
+        // TaxaOperacao = 30 / TotalDeContasCriadas;
+        if (agencia <= 0)
+        {
+            throw new ArgumentException("Os numeros da agencia devem ser maior do que 0", nameof(agencia));
+        }
+
+        if (numero_agencia <= 0)
+        {
+            throw new ArgumentException("Os numeros da agencia devem ser maior do que 0", nameof(numero_agencia));
+        }
         TotalDeContasCriadas += 1;
     }
     // private Cliente titular;
     public Cliente Titular { get; set; }
     
-   public static double TaxaOperacao { get; private set; }
+   // public static double TaxaOperacao { get; private set; }
    public static int TotalDeContasCriadas { get; private set; }
-   
-    private string _conta;
+   public int  ContadorDeSaquesNaoPermitidos { get; private set; }
+   public int ContadorTransferenciasNaoPermitidas { get; private set; }
 
-    public string Conta
+    private int _agencia;
+
+    public int Agencia
     {
         get
         {
-            return _conta;
+            return _agencia;
         }
-        set
+        private set
         {
-            if (value == null)
+            if (value <= 0)
             {
                 return;
             }
-            else
-            {
-                _conta = value;
-            }
+
+            _agencia = value;
         }
     }
 
     private int _numero_agencia;
-    public int Numero_agencia
-    {
-        get
-        {
-            return _numero_agencia;
-        }
-        set
-        {
-            if (value <= 0)
-            {
-                
-            }
-            else
-            {
-                _numero_agencia = value;
-            }
-        }
-        
-    }
+    public int Numero_agencia { get; }
     public string Nome_agencia { get; set; }
     private double saldo;
 
-    public bool Sacar(double valor)
+    public void Sacar(double valor)
     {
-        if (saldo < valor)
+        if (_saldo < valor)
         {
-            return false;
+            ContadorDeSaquesNaoPermitidos++;
+            throw new SaldoInsuficienteException($"Saldo Insuficiente para saque no valor de: R${valor}");
         }
-
-        if (valor < 0)
-        {
-            return false;
-        }
-        else
-        {
-            saldo = saldo - valor;
-            return true;
-        }
+        _saldo = valor;
     }
 
     public void Depositar(double valor)
@@ -85,40 +69,23 @@ public class ContaCorrente
         saldo = saldo + valor;
     }
 
-    public bool Transferir(double valor, ContaCorrente destino)
+    public bool Transferir(double valor, ContaCorrente contaDestino)
     {
-        if (saldo < valor)
+        try
         {
-            return false;
+            Sacar(valor);
         }
-
-        if (valor < 0)
+        catch (SaldoInsuficienteException ex)
         {
-            return false;
+            ContadorTransferenciasNaoPermitidas++;
+            throw new SaldoInsuficienteException($"Saldo insuficiente para realizar transferencia no valor de: {valor}");
         }
-        else
-        {
-            saldo = saldo - valor;
-            destino.saldo = destino.saldo + valor;
-            return true;
-        }
+        _saldo -= valor;
+        contaDestino.Depositar(valor);
+        return true;
     }
 
-    // public void setSaldo(double valor)
-    // {
-    //     if (valor < 0)
-    //     {
-    //         return;
-    //     }
-    //
-    //     saldo = valor;
-    // }
-    //
-    // public double getSaldo()
-    // {
-    //     return saldo;
-    // }
-
+    private double _saldo = 100;
     public double Saldo
     {
         get
