@@ -8,20 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fbdaa12-6b5d-4ee8-8bbf-d8c3179402ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ByteBank/Index.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/LeitorDeArquivo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/OperacaoFinanceiraException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank/SaldoInsuficienteException.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ByteBank/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Conta/ContaCorrente.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/bin/Debug/net6.0/ByteBank.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ByteBank.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ref/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/ref/ByteBank.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/refint/ByteBank.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/obj/Debug/net6.0/refint/ByteBank.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +80,7 @@
       <workItem from="1656073134267" duration="6326000" />
       <workItem from="1656330961213" duration="228000" />
       <workItem from="1656331285972" duration="11104000" />
-      <workItem from="1656342580556" duration="4746000" />
+      <workItem from="1656342580556" duration="6540000" />
     </task>
     <task id="LOCAL-00001" summary="init bytebank">
       <created>1656004480665</created>
@@ -158,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656336804658</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="up exceptions">
+      <created>1656355666117</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656355666117</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +183,7 @@
     <MESSAGE value="feat: creat constructor" />
     <MESSAGE value="add totalContasCriadas" />
     <MESSAGE value="EXCEPTIONs" />
-    <option name="LAST_COMMIT_MESSAGE" value="EXCEPTIONs" />
+    <MESSAGE value="up exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="up exceptions" />
   </component>
 </project>
