@@ -1,23 +1,19 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Alura.LeilaoOnline.WebApp.Dados;
 using Alura.LeilaoOnline.WebApp.Models;
 using System;
-using System.Collections.Generic;
+using Alura.LeilaoOnline.WebApp.Dados;
 
 namespace Alura.LeilaoOnline.WebApp.Controllers
 {
     public class LeilaoController : Controller
     {
+        
+        ILeilaoDAO _dao;
 
-        AppDbContext _context;
-        LeilaoDAO _dao;
-
-        public LeilaoController()
+        public LeilaoController(ILeilaoDAO dao)
         {
-            _context = new AppDbContext();
-            _dao = new LeilaoDAO();
+            _dao = dao;
         }
         
         public IActionResult index()
@@ -109,7 +105,7 @@ namespace Alura.LeilaoOnline.WebApp.Controllers
         public IActionResult Pesquisa(string termo)
         {
             ViewData["termo"] = termo;
-             var leiloes = _dao.BuscarLeiloes();
+             var leiloes = _dao.BuscarLeiloes()
                 .Where(l => string.IsNullOrWhiteSpace(termo) || 
                        l.Titulo.ToUpper().Contains(termo.ToUpper()) || 
                        l.Descricao.ToUpper().Contains(termo.ToUpper()) ||
