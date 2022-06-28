@@ -1,3 +1,5 @@
+using FilmesApi.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -25,3 +27,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+services.AddDbContext<FilmeContext>(opts =>
+    opts.UseMySql(Configuration.GetConnectionString("FilmeConnection")));
