@@ -1,51 +1,44 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using Alura.LeilaoOnline.WebApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Alura.LeilaoOnline.WebApp.Dados.EfCore
 {
-    public class LeilaoDAOcomEFCOore: ILeilaoDAO
+    public class LeilaoDaoComEfCore : ILeilaoDao
     {
         AppDbContext _context;
 
-        public LeilaoDAOcomEFCOore()
+        public LeilaoDaoComEfCore(AppDbContext context)
         {
-            _context = new AppDbContext();
+            _context = context;
         }
+
         public Leilao BuscarPorId(int id)
         {
-            return _context.Leiloes.First(l => l.Id == id);
+            return _context.Leiloes.Find(id);
         }
 
-        public void Incluir(Leilao leilao)
+        public IEnumerable<Leilao> BuscarTodos()
         {
-            _context.Leiloes.Add(leilao);
+            return _context.Leiloes.Include(l => l.Categoria);
+        }
+
+        public void Incluir(Leilao obj)
+        {
+            _context.Leiloes.Add(obj);
             _context.SaveChanges();
         }
 
-        public void Alterar(Leilao leilao)
+        public void Alterar(Leilao obj)
         {
-            _context.Leiloes.Update(leilao);
+            _context.Leiloes.Update(obj);
             _context.SaveChanges();
         }
 
-        public void Remover(Leilao leilao)
+        public void Excluir(Leilao leilao)
         {
             _context.Leiloes.Remove(leilao);
             _context.SaveChanges();
-        }
-        
-        public IEnumerable<Categoria> BuscarCategorias()
-        {
-            return _context.Categorias.ToList();
-        }
-        
-        public IEnumerable<Leilao> BuscarLeiloes()
-        {
-            return _context.Leiloes
-                .Include(l => l.Categoria)
-                .ToList();
         }
     }
 }
