@@ -23,8 +23,7 @@ namespace FilmesAPI.Controllers
         {
             _cinemaService = cinemaService;
         }
-  
-
+        
         [HttpPost]
         public IActionResult AdicionaCinema([FromBody] CreateCinemaDto cinemaDto)
         {
