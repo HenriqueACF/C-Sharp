@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Adapters",
+    "\\Adapters\\MongoDB",
+    "\\Adapters\\MongoDB\\Repository",
+    "\\bin\\Debug",
+    "\\Domain",
+    "\\Domain\\SharedKernel",
+    "\\Domain\\SharedKernel\\Responses",
+    "\\Domain\\UseCase",
+    "\\Domain\\UseCase\\CadastrarChave",
+    "\\EndPoints"
+  ],
+  "SelectedNode": "\\Domain\\UseCase\\ConsultarChave",
+  "PreviewInSolutionExplorer": false
+}
