@@ -35,7 +35,7 @@ namespace FilmesApi.Controllers
         [HttpGet("{id}")]
         public IActionResult RecuperaSessoesPorId(int id)
         {
-            Sessao sessao= _context.Sessoes.FirstOrDefault(sessao => sessao.Id == id);
+            Sessao sessao = _context.Sessoes.FirstOrDefault(sessao => sessao.Id == id);
             if (sessao != null)
             {
                 ReadSessaoDto sessaoDto = _mapper.Map<ReadSessaoDto>(sessao);

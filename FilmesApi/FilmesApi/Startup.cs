@@ -16,6 +16,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using FilmesAPI.Models;
+using FilmesApi.Services;
 
 namespace FilmesAPI
 {
@@ -31,7 +33,12 @@ namespace FilmesAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(opts => opts.UseLazyLoadingProxies().UseMySQL(Configuration.GetConnectionString("CinemaConnection")));
+            services.AddDbContext<AppDbContext>(opts =>
+                opts.UseLazyLoadingProxies()
+                    .UseMySQL(Configuration
+                        .GetConnectionString("CinemaConnection")));
+            services.AddScoped<FilmeService, FilmeService>();
+            services.AddScoped<CinemaService, CinemaService>();
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
