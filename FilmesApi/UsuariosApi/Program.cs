@@ -2,6 +2,7 @@ using System.Configuration;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using UsuariosApi.Data;
+using UsuariosApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddDbContext<UserDBContext>(
         .GetConnectionString("UsuarioConnection")));
 builder.Services.AddIdentity<IdentityUser<int>, IdentityRole<int>>()
     .AddEntityFrameworkStores<UserDBContext>();
+builder.Services.AddScoped<CadastroService, CadastroService>();
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

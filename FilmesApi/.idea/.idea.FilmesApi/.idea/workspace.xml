@@ -10,20 +10,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f6c8969-0b2d-4388-b8d8-195d686de2df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/Controllers/CadastroController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/Data/DTOs/CreateUsuarioDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/Data/UserDBContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/Models/Usuario.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/Profiles/UsuarioProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/UsuariosApi.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/appsettings.json" afterDir="false" />
+    <list default="true" id="8f6c8969-0b2d-4388-b8d8-195d686de2df" name="Changes" comment="feat: [usuarioApi] -&gt; add packages">
+      <change afterPath="$PROJECT_DIR$/UsuariosApi/Services/CadastroService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FilmesApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FilmesApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmesApi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FilmesApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsuariosApi/Controllers/CadastroController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/Controllers/CadastroController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsuariosApi/Profiles/UsuarioProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/Profiles/UsuarioProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsuariosApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsuariosApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsuariosApi/UsuariosApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/UsuariosApi.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +124,7 @@
       <updated>1657026286586</updated>
       <workItem from="1657026316358" duration="18391000" />
       <workItem from="1657109667426" duration="3999000" />
-      <workItem from="1657117629263" duration="4127000" />
+      <workItem from="1657117629263" duration="7083000" />
     </task>
     <task id="LOCAL-00001" summary="up project">
       <created>1657026404741</created>
@@ -166,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657113654554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: [usuarioApi] -&gt; add packages">
+      <created>1657131821146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657131821146</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +195,8 @@
     <MESSAGE value="refactor: EnderecoController" />
     <MESSAGE value="refactor: GerenteController" />
     <MESSAGE value="refactor: SessaoController" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: SessaoController" />
+    <MESSAGE value="feat: [usuarioApi] -&gt; add packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: [usuarioApi] -&gt; add packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
