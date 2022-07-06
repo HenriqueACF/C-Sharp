@@ -10,15 +10,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f6c8969-0b2d-4388-b8d8-195d686de2df" name="Changes" comment="feat: [usuarioApi] -&gt; add packages">
-      <change afterPath="$PROJECT_DIR$/UsuariosApi/Services/CadastroService.cs" afterDir="false" />
+    <list default="true" id="8f6c8969-0b2d-4388-b8d8-195d686de2df" name="Changes" comment="feat: Register User">
+      <change afterPath="$PROJECT_DIR$/UsuariosApi/Controllers/LoginController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UsuariosApi/Data/Request/LoginRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UsuariosApi/Services/LoginService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FilmesApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FilmesApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmesApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsuariosApi/Controllers/CadastroController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/Controllers/CadastroController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsuariosApi/Profiles/UsuarioProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/Profiles/UsuarioProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsuariosApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsuariosApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsuariosApi/UsuariosApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UsuariosApi/UsuariosApi.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,10 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Henrique/C-Sharp/FilmesApi/UsuariosApi/Controllers/CadastroController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../POO/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -124,7 +125,7 @@
       <updated>1657026286586</updated>
       <workItem from="1657026316358" duration="18391000" />
       <workItem from="1657109667426" duration="3999000" />
-      <workItem from="1657117629263" duration="7083000" />
+      <workItem from="1657117629263" duration="10312000" />
     </task>
     <task id="LOCAL-00001" summary="up project">
       <created>1657026404741</created>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657131821146</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Register User">
+      <created>1657134752836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657134752836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +204,8 @@
     <MESSAGE value="refactor: GerenteController" />
     <MESSAGE value="refactor: SessaoController" />
     <MESSAGE value="feat: [usuarioApi] -&gt; add packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: [usuarioApi] -&gt; add packages" />
+    <MESSAGE value="feat: Register User" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Register User" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
