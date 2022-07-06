@@ -8,20 +8,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f6c8969-0b2d-4388-b8d8-195d686de2df" name="Changes" comment="refactor: CinemaController and FilmeController">
-      <change afterPath="$PROJECT_DIR$/FilmesApi/Services/EnderecoService.cs" afterDir="false" />
+    <list default="true" id="8f6c8969-0b2d-4388-b8d8-195d686de2df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FilmesApi/Services/GerenteService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FilmesApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FilmesApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmesApi/Controllers/CinemaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/Controllers/CinemaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmesApi/Controllers/EnderecoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/Controllers/EnderecoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/Controllers/GerenteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/Controllers/GerenteController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Henrique/C-Sharp/FilmesApi/FilmesApi/Controllers/CinemaController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Henrique/C-Sharp/FilmesApi/FilmesApi/Controllers/CinemaController.cs" root0="SKIP_HIGHLIGHTING" />
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.FilmesApi">
     <configuration name="FilmesApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FilmesApi/FilmesApi.csproj" />
@@ -86,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657026286586</updated>
-      <workItem from="1657026316358" duration="18081000" />
+      <workItem from="1657026316358" duration="18391000" />
+      <workItem from="1657109667426" duration="2658000" />
     </task>
     <task id="LOCAL-00001" summary="up project">
       <created>1657026404741</created>
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657050647618</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor: EnderecoController">
+      <created>1657054700108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657054700108</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +131,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="up project" />
     <MESSAGE value="refactor: CinemaController and FilmeController" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: CinemaController and FilmeController" />
+    <MESSAGE value="refactor: EnderecoController" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: EnderecoController" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
