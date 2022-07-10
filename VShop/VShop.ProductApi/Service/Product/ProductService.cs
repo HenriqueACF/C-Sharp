@@ -21,12 +21,12 @@ public class ProductService: IProductService
         return _mapper.Map<IEnumerable<ProductDTO>>(productEntity);
     }
 
-    public async Task<ProductDTO> GetProducyById(int id)
+    public async Task<ProductDTO> GetProductById(int id)
     {
         var productEntity = await _productRepository.GetById(id);
         return _mapper.Map<ProductDTO>(productEntity);
     }
-
+    
     public async Task AddProduct(ProductDTO productDto)
     {
         // TODO -> Não encontrou o namespace de product
