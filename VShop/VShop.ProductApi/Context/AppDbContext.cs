@@ -9,7 +9,7 @@ public class AppDbContext: DbContext
     
     public DbSet<Category> Categories { get; set; }
     public DbSet<Product> Products { get; set; }
-    
+
     //Using Fluent Api
     protected override void OnModelCreating(ModelBuilder mb)
     {
