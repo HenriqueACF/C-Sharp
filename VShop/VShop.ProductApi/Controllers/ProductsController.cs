@@ -21,7 +21,7 @@ namespace VShop.ProductApi.Controllers
             var productDto = await _productService.GetProducts();
             if(productDto is null)
                 return NotFound("Product not found");
-            return Ok(productDto);    //
+            return Ok(productDto);
         }
         
         [HttpGet("{id}", Name = "GetProduct")]

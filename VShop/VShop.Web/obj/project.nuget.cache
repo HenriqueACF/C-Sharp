@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ODM9wVv7vuVbkPazF0UiaII7HQ1rCXhoAEovUG/R3PbbND4hKsNkqru7nA3leGo0hGQMNEU4gLiLcI3kVqR3w==",
+  "success": true,
+  "projectFilePath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/VShop.Web/VShop.Web.csproj",
+  "expectedPackageFiles": [
+    "/home/h3nriqueassis/.nuget/packages/font.awesome/5.15.4/font.awesome.5.15.4.nupkg.sha512"
+  ],
+  "logs": []
+}
