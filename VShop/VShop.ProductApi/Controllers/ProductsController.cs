@@ -48,11 +48,8 @@ namespace VShop.ProductApi.Controllers
         }
         
         [HttpPut]
-        public async Task<ActionResult> Put(int id,[FromBody] ProductDTO productDto)
+        public async Task<ActionResult> Put([FromBody] ProductDTO productDto)
         {
-            if(id != productDto.Id)
-                return BadRequest("Data Invalid");
-
             if(productDto is null)
                 return BadRequest("Data Invalid");
             
