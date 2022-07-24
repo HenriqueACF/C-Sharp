@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VShop.IdentityServer.Configuration;
 using VShop.IdentityServer.Data;
+using VShop.IdentityServer.SeedDataBase;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +35,7 @@ var builderIdentityServer = builder.Services.AddIdentityServer(options =>
     .AddAspNetIdentity<ApplicationUser>();
 
 builderIdentityServer.AddDeveloperSigningCredential();
+builder.Services.AddScoped<IDataBaseSeedInitializer, DataBaseIdentityServerInitializer>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -55,8 +57,21 @@ app.UseRouting();
 app.UseIdentityServer();
 app.UseAuthorization();
 
+SeedDatabaseIdentityServer(app);
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+void SeedDatabaseIdentityServer(IApplicationBuilder app)
+{
+    using (var serviceScope = app.ApplicationServices.CreateScope())
+    {
+        var initRolesUsers = serviceScope.ServiceProvider.GetService<IDataBaseSeedInitializer>();
+        initRolesUsers.InitalizeSeedRoles();
+        initRolesUsers.InitializeSeedUsers();
+    }
+    
+}
