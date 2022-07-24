@@ -476,3 +476,11 @@
 /home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/obj/Debug/net6.0/VShop.Web.pdb
 /home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/obj/Debug/net6.0/VShop.Web.genruntimeconfig.cache
 /home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/obj/Debug/net6.0/ref/VShop.Web.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Frontend/VShop.Web/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
