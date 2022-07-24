@@ -22,4 +22,8 @@
       <Folder Include="Controllers" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Frontend\VShop.Web\VShop.Web.csproj" />
+    </ItemGroup>
+
 </Project>

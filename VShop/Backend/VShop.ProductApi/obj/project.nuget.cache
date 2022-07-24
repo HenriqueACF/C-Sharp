@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "96JQFSz/MWeCx5/1r3mSc+fitd/myW4aZOCmor236kciGOD/IRvQ15c+QnvPDor4M/q+YMi7H+a389YbavRRDg==",
-  "success": true,
+  "dgSpecHash": "u+fXTOWh5d5NHMaWNBk668iYcZ0roT9xzUQdtAKxtU50jgd+phCIrpENe3LwSukYwNC9eRftsZ+kJcnJD3UhPg==",
+  "success": false,
   "projectFilePath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Backend/VShop.ProductApi/VShop.ProductApi.csproj",
   "expectedPackageFiles": [
     "/home/h3nriqueassis/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/home/h3nriqueassis/.nuget/packages/font.awesome/5.15.4/font.awesome.5.15.4.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
@@ -174,5 +175,15 @@
     "/home/h3nriqueassis/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/home/h3nriqueassis/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.VisualStudio.Web.CodeGeneration.Design from 6.0.7 to 6.0.6. Reference the package directly from the project to select a different version. \n VShop.ProductApi -> VShop.Web -> Microsoft.VisualStudio.Web.CodeGeneration.Design (>= 6.0.7) \n VShop.ProductApi -> Microsoft.VisualStudio.Web.CodeGeneration.Design (>= 6.0.6)",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
