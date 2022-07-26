@@ -1,8 +1,10 @@
+using Duende.IdentityServer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VShop.IdentityServer.Configuration;
 using VShop.IdentityServer.Data;
 using VShop.IdentityServer.SeedDataBase;
+using VShop.IdentityServer.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +38,7 @@ var builderIdentityServer = builder.Services.AddIdentityServer(options =>
 
 builderIdentityServer.AddDeveloperSigningCredential();
 builder.Services.AddScoped<IDataBaseSeedInitializer, DataBaseIdentityServerInitializer>();
+builder.Services.AddScoped<IProfileService, ProfileAppService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

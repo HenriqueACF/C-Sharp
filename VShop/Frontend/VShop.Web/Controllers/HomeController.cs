@@ -28,15 +28,15 @@ public class HomeController : Controller
     }
 
     [HttpGet]
-    public async Task<ActionResult<ProductVM>> ProductDetails(int id)
-    {
-        var product = await _productService.FindProductById(id,string.Empty);
-
-        if (product is null)
-            return View("Error");
-
-        return View(product);
-    }
+    // public async Task<ActionResult<ProductVM>> ProductDetails(int id)
+    // {
+    //     var product = await _productService.FindProductById(id,string.Empty);
+    //
+    //     if (product is null)
+    //         return View("Error");
+    //
+    //     return View(product);
+    // }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error(string message)

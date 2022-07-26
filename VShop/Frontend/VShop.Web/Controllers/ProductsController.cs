@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -22,7 +23,7 @@ namespace VShop.Web.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductVM>>> Index()
         {
-            var result = await _productService.GetAllProducts();
+            var result = await _productService.GetAllProducts(await GetAccessTokenAsync());
             if (result is null)
                 return View("Error");
             return View(result);
@@ -33,7 +34,7 @@ namespace VShop.Web.Controllers
         {
             ViewBag.CategoryId = 
                 new SelectList(await
-                        _categoryService.GetAllCategories(), "CategoryId", "Name");
+                        _categoryService.GetAllCategories(await GetAccessTokenAsync()), "CategoryId", "Name");
             return View();
         }
 
@@ -43,7 +44,7 @@ namespace VShop.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _productService.CreateProduct(productVm);
+                var result = await _productService.CreateProduct(productVm, await GetAccessTokenAsync());
 
                 if (result != null)
                     return RedirectToAction(nameof(Index));
@@ -51,7 +52,7 @@ namespace VShop.Web.Controllers
             else
             {
                 ViewBag.CategoryId = new 
-                    SelectList(await _categoryService.GetAllCategories(), 
+                    SelectList(await _categoryService.GetAllCategories(await GetAccessTokenAsync()), 
                         "CategoryId", "Name");
             }
 
@@ -62,8 +63,8 @@ namespace VShop.Web.Controllers
         public async Task<IActionResult> UpdateProduct(int id)
         {
             ViewBag.CategoryId =
-                new SelectList(await _categoryService.GetAllCategories(), "CategoryId", "Name");
-            var result = await _productService.FindProductById(id);
+                new SelectList(await _categoryService.GetAllCategories(await GetAccessTokenAsync()), "CategoryId", "Name");
+            var result = await _productService.FindProductById(id, await GetAccessTokenAsync());
             if (result is null)
                 return View("Error");
             return View(result);
@@ -75,7 +76,7 @@ namespace VShop.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _productService.UpdateProduct(productVm);
+                var result = await _productService.UpdateProduct(productVm, await GetAccessTokenAsync());
                 if (result is not null)
                     return RedirectToAction(nameof(Index));
             }
@@ -87,7 +88,7 @@ namespace VShop.Web.Controllers
         [Authorize]
         public async Task<ActionResult<ProductVM>> DeleteProduct(int id)
         {
-            var result = await _productService.FindProductById(id);
+            var result = await _productService.FindProductById(id, await GetAccessTokenAsync());
             if (result is null)
                 return View("Error");
             return View(result);
@@ -97,10 +98,15 @@ namespace VShop.Web.Controllers
         [Authorize(Roles = Role.Admin)]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var result = await _productService.DeleteProductById(id);
+            var result = await _productService.DeleteProductById(id, await GetAccessTokenAsync());
             if(!result)
                 return View("Error");
             return RedirectToAction("Index");
+        }
+        
+        private async Task<string> GetAccessTokenAsync()
+        {
+            return await HttpContext.GetTokenAsync("access_token");
         }
     }
 }
