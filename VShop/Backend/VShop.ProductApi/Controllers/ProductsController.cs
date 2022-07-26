@@ -37,6 +37,7 @@ namespace VShop.ProductApi.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = Role.Admin)]
         public async Task<ActionResult> Post([FromBody] ProductDTO productDto)
         {
             if(productDto is null)
@@ -51,6 +52,7 @@ namespace VShop.ProductApi.Controllers
         }
         
         [HttpPut]
+        [Authorize(Roles = Role.Admin)]
         public async Task<ActionResult> Put([FromBody] ProductDTO productDto)
         {
             if(productDto is null)

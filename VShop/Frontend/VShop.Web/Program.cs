@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using VShop.Web.Services;
 using VShop.Web.Services.Contracts;
 
@@ -20,8 +21,18 @@ builder.Services.AddAuthentication(options =>
     options.DefaultScheme = "Cookies";
     options.DefaultChallengeScheme = "oidc";
 })
-    .AddCookie("Cookies", c => c.ExpireTimeSpan = 
-        TimeSpan.FromMinutes(10))
+    .AddCookie("Cookies", c =>
+    {
+        c.ExpireTimeSpan = TimeSpan.FromMinutes(10);
+        c.Events = new CookieAuthenticationEvents()
+        {
+            OnRedirectToAccessDenied = (context) =>
+            {
+                context.HttpContext.Response.Redirect(builder.Configuration["ServiceUri:IdentityServer"] + "/Account/AccessDenied");
+                return Task.CompletedTask;
+            }
+        };
+    })
     .AddOpenIdConnect("oidc", options =>
     {
         options.Authority = builder.Configuration["ServiceUri:IdentityServer"];
