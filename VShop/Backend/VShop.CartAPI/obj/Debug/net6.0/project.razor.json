@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Backend/VShop.ProductApi/VShop.ProductApi.csproj",
+  "FilePath": "/home/h3nriqueassis/Henrique/Github-Projects/C-Sharp/VShop/Backend/VShop.CartAPI/VShop.CartAPI.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,7 +16295,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "VShop.ProductApi",
+  "RootNamespace": "VShop.CartAPI",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

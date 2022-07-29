@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.ProductApi", "Backend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.IdentityServer", "Backend\VShop.IdentityServer\VShop.IdentityServer.csproj", "{8BB539F4-5036-4947-9E61-84F6BA2A9FE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.CartAPI", "Backend\VShop.CartAPI\VShop.CartAPI.csproj", "{684376DC-5300-48FD-B6BE-E171574A5456}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{8BB539F4-5036-4947-9E61-84F6BA2A9FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BB539F4-5036-4947-9E61-84F6BA2A9FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BB539F4-5036-4947-9E61-84F6BA2A9FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684376DC-5300-48FD-B6BE-E171574A5456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684376DC-5300-48FD-B6BE-E171574A5456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684376DC-5300-48FD-B6BE-E171574A5456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684376DC-5300-48FD-B6BE-E171574A5456}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
