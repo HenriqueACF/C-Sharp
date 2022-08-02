@@ -7,7 +7,7 @@ public interface ICartService
     Task<CartVM> GetCartByUserIdAsync(string userId, string token);
     Task<CartVM> AddItemToCartAsync(CartVM cartVM, string token);
     Task<CartVM> UpdateCartAsync(CartVM cartVM, string token);
-    Task<bool> RemoveFromCartAsync(int cartId, string token);
+    Task<bool> RemoveItemFromCartAsync(int cartId, string token);
     
     //implementações que serão feitas no futuro
     // Task<bool> ApplyCouponAsync(CartVM cartVM, string couponCode, string token);
